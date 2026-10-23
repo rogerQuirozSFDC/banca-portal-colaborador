@@ -1,0 +1,297 @@
+{
+  "id": "herramientas",
+  "titulo": "Herramientas",
+  "intro": "Simuladores referenciales, calculadora de comisiones, plantillas para tus propuestas y acceso a los sistemas internos. Para preparar o registrar una visita, apóyate en tus asistentes.",
+  "bloques": [
+    {
+      "tipo": "destacado",
+      "titulo": "Tus visitas",
+      "items": [
+        {
+          "titulo": "Prepara la visita a Pesquera Pacífico Azul",
+          "resumen": "Ampliación de línea de comercio exterior, viernes 23/10 a las 17:15 en el Callao. Perfil, indicadores, oportunidades, estrategia, guion y reporte en PDF.",
+          "fecha": "2026-10-23",
+          "hora": "17:15",
+          "etiqueta": "Preparación de visita",
+          "cta": {
+            "agente": "atlas",
+            "frase": "Prepárame la visita a Pesquera Pacífico Azul"
+          }
+        },
+        {
+          "titulo": "Registra la visita a Distribuidora Central",
+          "resumen": "Propuesta de cash management y nóminas. Dicta o escribe tu minuta y obtén el resumen, las tareas, las oportunidades, el correo de seguimiento y el Plan de Cuenta en PDF.",
+          "fecha": "2026-10-23",
+          "hora": "10:00",
+          "etiqueta": "Registro de visita",
+          "cta": {
+            "agente": "sonar",
+            "frase": "Quiero registrar la visita a Distribuidora Central"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "formulario",
+      "titulo": "Simulador de cuota de préstamo",
+      "campos": [
+        {
+          "etiqueta": "Moneda",
+          "tipo": "seleccion",
+          "opciones": [
+            "Soles (S/)",
+            "Dólares (US$)"
+          ]
+        },
+        {
+          "etiqueta": "Monto del préstamo",
+          "tipo": "monto"
+        },
+        {
+          "etiqueta": "Plazo",
+          "tipo": "seleccion",
+          "opciones": [
+            "12 meses",
+            "24 meses",
+            "36 meses",
+            "48 meses",
+            "60 meses",
+            "84 meses"
+          ]
+        },
+        {
+          "etiqueta": "Tasa efectiva anual (%)",
+          "tipo": "texto"
+        },
+        {
+          "etiqueta": "Periodicidad de pago",
+          "tipo": "seleccion",
+          "opciones": [
+            "Mensual",
+            "Trimestral",
+            "Semestral"
+          ]
+        },
+        {
+          "etiqueta": "Período de gracia",
+          "tipo": "seleccion",
+          "opciones": [
+            "Sin gracia",
+            "3 meses",
+            "6 meses",
+            "12 meses"
+          ]
+        }
+      ],
+      "accion": {
+        "etiqueta": "Generar cronograma referencial",
+        "confirmacion": "Te enviamos el cronograma referencial a tu correo. Las condiciones finales dependen de la aprobación de Riesgos y del tarifario vigente."
+      }
+    },
+    {
+      "tipo": "formulario",
+      "titulo": "Simulador de leasing",
+      "campos": [
+        {
+          "etiqueta": "Tipo de bien",
+          "tipo": "seleccion",
+          "opciones": [
+            "Maquinaria y equipo",
+            "Vehículos y flota",
+            "Inmueble",
+            "Equipos de cómputo"
+          ]
+        },
+        {
+          "etiqueta": "Moneda",
+          "tipo": "seleccion",
+          "opciones": [
+            "Soles (S/)",
+            "Dólares (US$)"
+          ]
+        },
+        {
+          "etiqueta": "Valor del bien sin IGV",
+          "tipo": "monto"
+        },
+        {
+          "etiqueta": "Plazo",
+          "tipo": "seleccion",
+          "opciones": [
+            "24 meses",
+            "36 meses",
+            "48 meses",
+            "60 meses"
+          ]
+        },
+        {
+          "etiqueta": "Opción de compra (%)",
+          "tipo": "texto"
+        }
+      ],
+      "accion": {
+        "etiqueta": "Simular leasing",
+        "confirmacion": "Te enviamos la simulación referencial de leasing a tu correo. Coordina la propuesta final con el especialista de Leasing."
+      }
+    },
+    {
+      "tipo": "formulario",
+      "titulo": "Forward de tipo de cambio indicativo",
+      "campos": [
+        {
+          "etiqueta": "Operación del cliente",
+          "tipo": "seleccion",
+          "opciones": [
+            "Compra de dólares",
+            "Venta de dólares"
+          ]
+        },
+        {
+          "etiqueta": "Monto en dólares (US$)",
+          "tipo": "monto",
+          "moneda": "US$"
+        },
+        {
+          "etiqueta": "Fecha de vencimiento",
+          "tipo": "fecha"
+        }
+      ],
+      "accion": {
+        "etiqueta": "Solicitar precio indicativo",
+        "confirmacion": "La Mesa de Clientes te enviará el precio indicativo por correo. El precio final se pacta con la Mesa al momento del cierre."
+      }
+    },
+    {
+      "tipo": "formulario",
+      "titulo": "Calculadora de comisiones",
+      "campos": [
+        {
+          "etiqueta": "Producto o servicio",
+          "tipo": "seleccion",
+          "opciones": [
+            "Transferencia al exterior",
+            "Carta fianza",
+            "Carta de crédito de importación",
+            "Cobranza documentaria",
+            "Pago de haberes",
+            "Recaudación"
+          ]
+        },
+        {
+          "etiqueta": "Moneda",
+          "tipo": "seleccion",
+          "opciones": [
+            "Soles (S/)",
+            "Dólares (US$)"
+          ]
+        },
+        {
+          "etiqueta": "Monto de la operación",
+          "tipo": "monto"
+        },
+        {
+          "etiqueta": "Tarifario",
+          "tipo": "seleccion",
+          "opciones": [
+            "Vigente",
+            "Desde el 01/12/2026"
+          ]
+        }
+      ],
+      "accion": {
+        "etiqueta": "Calcular comisión",
+        "confirmacion": "Te enviamos el cálculo referencial por correo. Si el cliente requiere una condición distinta, tramítala según el Manual de Excepciones de Tasa y Comisiones."
+      }
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Plantillas comerciales",
+      "items": [
+        {
+          "titulo": "Propuesta de pago de haberes — Campaña Nóminas 2026",
+          "resumen": "Presentación para el cliente con beneficios para la empresa y sus colaboradores, implementación y condiciones de la campaña.",
+          "etiqueta": "Presentación",
+          "area": "Cash Management",
+          "fecha": "2026-10-19"
+        },
+        {
+          "titulo": "Propuesta integral de cash management",
+          "resumen": "Pagos a proveedores, recaudación, banca por internet de empresas y gestión de liquidez.",
+          "etiqueta": "Presentación",
+          "area": "Cash Management",
+          "fecha": "2026-09-10"
+        },
+        {
+          "titulo": "Carta de oferta de línea de comercio exterior",
+          "resumen": "Formato de oferta indicativa sujeta a aprobación de Riesgos.",
+          "etiqueta": "Carta",
+          "area": "Comercio Exterior",
+          "fecha": "2026-08-25"
+        },
+        {
+          "titulo": "Solicitud de excepción de tasa y comisiones",
+          "resumen": "Formato con el sustento de rentabilidad de la relación que exige la versión 2.4 del manual.",
+          "etiqueta": "Formato",
+          "area": "Productos y Precios Banca Empresas",
+          "fecha": "2026-10-15"
+        },
+        {
+          "titulo": "Plan de visita",
+          "resumen": "Objetivos, agenda, preguntas clave y siguientes pasos de la reunión con el cliente.",
+          "etiqueta": "Visitas",
+          "area": "Banca Empresas",
+          "cta": {
+            "agente": "atlas",
+            "frase": "Prepárame la visita a Pesquera Pacífico Azul y genera el reporte en PDF"
+          }
+        },
+        {
+          "titulo": "Minuta de visita",
+          "resumen": "Acuerdos, tareas, oportunidades identificadas y correo de seguimiento al cliente.",
+          "etiqueta": "Visitas",
+          "area": "Banca Empresas",
+          "cta": {
+            "agente": "sonar",
+            "frase": "Quiero registrar la visita a Distribuidora Central"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "tarjetas",
+      "titulo": "Sistemas internos",
+      "items": [
+        {
+          "titulo": "Sistema de préstamos comerciales",
+          "resumen": "Desembolsos, cronogramas y reprogramaciones de préstamos a empresas.",
+          "estado": "Operativo",
+          "etiqueta": "Préstamos"
+        },
+        {
+          "titulo": "Plataforma de comercio exterior",
+          "resumen": "Ingreso y seguimiento de cartas de crédito, cobranzas y transferencias al exterior. Mantenimiento programado el sábado 24/10 de 22:00 a 02:00.",
+          "estado": "Mantenimiento sáb. 24/10",
+          "etiqueta": "Comercio exterior"
+        },
+        {
+          "titulo": "Gestor documental de expedientes",
+          "resumen": "Consulta de documentos de clientes empresa y expedientes de crédito digitalizados. Mantenimiento programado el sábado 24/10 de 22:00 a 02:00.",
+          "estado": "Mantenimiento sáb. 24/10",
+          "etiqueta": "Documentos"
+        },
+        {
+          "titulo": "Consola de soporte de banca por internet de empresas",
+          "resumen": "Altas de usuarios, perfiles de firma y desbloqueo de accesos de clientes empresa.",
+          "estado": "Operativo",
+          "etiqueta": "Canales"
+        },
+        {
+          "titulo": "Plataforma de cotización de la Mesa de Clientes",
+          "resumen": "Tipo de cambio preferencial y depósitos a plazo para clientes empresa.",
+          "estado": "Operativo",
+          "etiqueta": "Tesorería"
+        }
+      ]
+    }
+  ]
+}

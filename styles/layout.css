@@ -1,0 +1,506 @@
+/* Estructura: cabecera fija, navegación lateral, área principal y rail de asistentes.
+   Óptimo desde 1280 px (rail fijo a la derecha); debajo, el rail es un panel deslizable. */
+
+body[data-pagina="portal"] {
+  padding-top: var(--alto-cabecera);
+}
+
+/* ---------- Cabecera ---------- */
+
+.cabecera {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: var(--alto-cabecera);
+  padding: 0 20px;
+  background: var(--c-superficie);
+  border-bottom: 1px solid var(--c-borde);
+  box-shadow: 0 1px 0 rgba(16, 24, 40, 0.02);
+}
+
+.cabecera::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: var(--g-marca);
+}
+
+.cabecera__menu {
+  display: none;
+}
+
+.cabecera__marca {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  text-decoration: none;
+  color: inherit;
+  flex: none;
+}
+
+.cabecera__logo {
+  display: block;
+  max-height: 30px;
+  max-width: 132px;
+  object-fit: contain;
+}
+
+.cabecera__textos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.cabecera__nombre {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--c-primario);
+  white-space: nowrap;
+}
+
+.cabecera__sub {
+  font-weight: 500;
+  color: var(--c-texto-2);
+}
+
+.cabecera__maqueta {
+  flex: none;
+}
+
+.cabecera__buscador {
+  flex: 1 1 auto;
+  max-width: 460px;
+  min-width: 180px;
+  margin: 0 auto;
+}
+
+.cabecera__derecha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: none;
+}
+
+.usuario {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 6px;
+  margin-right: 2px;
+  border-right: 1px solid var(--c-borde);
+}
+
+.usuario__textos {
+  display: flex;
+  flex-direction: column;
+  max-width: 230px;
+  padding-right: 8px;
+}
+
+.usuario__nombre {
+  font-size: 14px;
+  font-weight: 650;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.usuario__cargo {
+  font-size: 12px;
+  color: var(--c-texto-3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.avatar {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  overflow: hidden;
+  border-radius: 50%;
+  background: var(--g-marca);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.avatar--sm {
+  width: 36px;
+  height: 36px;
+  font-size: 13px;
+}
+
+.avatar--md {
+  width: 44px;
+  height: 44px;
+  font-size: 15px;
+}
+
+.avatar__foto {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------- Buscador ---------- */
+
+.buscador {
+  position: relative;
+}
+
+.buscador__icono {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--c-texto-3);
+  pointer-events: none;
+}
+
+.buscador__input {
+  width: 100%;
+  height: 40px;
+  padding: 8px 12px 8px 38px;
+  border: 1px solid var(--c-borde);
+  border-radius: 999px;
+  background: var(--c-superficie-2);
+}
+
+.buscador__input:focus {
+  outline: none;
+  background: var(--c-superficie);
+  border-color: var(--c-secundario);
+  box-shadow: 0 0 0 3px rgba(var(--c-secundario-rgb), 0.2);
+}
+
+.buscador__resultados {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  z-index: 60;
+  max-height: min(70vh, 460px);
+  overflow-y: auto;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--c-superficie);
+  border: 1px solid var(--c-borde);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra-3);
+}
+
+.buscador__opcion {
+  display: grid;
+  gap: 2px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buscador__opcion:hover,
+.buscador__opcion[aria-selected="true"] {
+  background: var(--c-primario-suave);
+}
+
+.buscador__seccion {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--c-primario);
+}
+
+.buscador__titulo {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.buscador__resumen {
+  font-size: 13px;
+  color: var(--c-texto-3);
+}
+
+.buscador__vacio {
+  padding: 10px;
+  color: var(--c-texto-3);
+  font-size: 14px;
+}
+
+/* ---------- Navegación ---------- */
+
+.nav {
+  position: fixed;
+  top: var(--alto-cabecera);
+  left: 0;
+  bottom: 0;
+  z-index: 40;
+  width: var(--ancho-nav);
+  overflow-y: auto;
+  padding: 16px 12px 24px;
+  background: var(--c-superficie);
+  border-right: 1px solid var(--c-borde);
+}
+
+.nav__lista {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__enlace {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 12px;
+  border-radius: 8px;
+  color: var(--c-texto-2);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav__enlace .icono {
+  flex: none;
+  color: var(--c-texto-3);
+}
+
+.nav__enlace:hover {
+  background: var(--c-superficie-2);
+  color: var(--c-texto);
+}
+
+.nav__enlace[aria-current="page"] {
+  background: var(--c-primario-suave);
+  color: var(--c-primario);
+  font-weight: 650;
+  box-shadow: inset 3px 0 0 var(--c-primario);
+}
+
+.nav__enlace[aria-current="page"] .icono {
+  color: var(--c-primario);
+}
+
+/* ---------- Principal ---------- */
+
+.principal {
+  min-height: calc(100vh - var(--alto-cabecera));
+  margin-left: var(--ancho-nav);
+  padding: 28px 32px 32px;
+  container-type: inline-size;
+  container-name: principal;
+  transition: margin-right 0.25s ease;
+}
+
+.principal:focus {
+  outline: none;
+}
+
+.pie {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid var(--c-borde);
+  color: var(--c-texto-3);
+  font-size: 12px;
+}
+
+/* ---------- Rail ---------- */
+
+.rail {
+  position: fixed;
+  top: var(--alto-cabecera);
+  right: 0;
+  bottom: 0;
+  z-index: 45;
+  width: var(--ancho-rail);
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: var(--c-superficie);
+  border-left: 1px solid var(--c-borde);
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: transform 0.25s ease, visibility 0s linear 0.25s;
+}
+
+.rail.rail--abierto {
+  transform: none;
+  visibility: visible;
+  transition: transform 0.25s ease, visibility 0s;
+}
+
+.rail-fondo {
+  position: fixed;
+  inset: var(--alto-cabecera) 0 0 0;
+  z-index: 44;
+  background: rgba(16, 24, 40, 0.38);
+}
+
+.lanzador-asistentes {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 46;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--g-marca);
+  color: #fff;
+  font-weight: 650;
+  font-size: 14px;
+  box-shadow: var(--sombra-3);
+  cursor: pointer;
+}
+
+.lanzador-asistentes:hover {
+  filter: brightness(1.08);
+}
+
+@media (min-width: 1280px) {
+  body.rail-abierto .principal {
+    margin-right: var(--ancho-rail);
+  }
+}
+
+/* Laptops (1280 a 1599 px) con el panel de asistentes abierto: la navegación queda solo con
+   íconos (el nombre de cada sección sigue en el title y para lectores de pantalla) y, hasta
+   1439 px, el panel se angosta, para que tablas y tarjetas no pierdan columnas. */
+@media (min-width: 1280px) and (max-width: 1599px) {
+  body.rail-abierto {
+    --ancho-nav: 68px;
+  }
+
+  body.rail-abierto .nav {
+    padding: 16px 10px 24px;
+  }
+
+  body.rail-abierto .nav__enlace {
+    justify-content: center;
+    gap: 0;
+    padding: 10px;
+  }
+
+  body.rail-abierto .nav__texto {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  body.rail-abierto {
+    --ancho-rail: 360px;
+  }
+}
+
+@media (max-width: 1279px) {
+  :root {
+    --ancho-nav: 212px;
+  }
+
+  .rail {
+    z-index: 70;
+    box-shadow: var(--sombra-3);
+  }
+
+  .rail-fondo {
+    z-index: 65;
+  }
+
+  .usuario__cargo {
+    display: none;
+  }
+}
+
+@media (max-width: 1180px) {
+  .cabecera__sub {
+    display: none;
+  }
+
+  .usuario__textos {
+    display: none;
+  }
+
+  .usuario {
+    border-right: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cabecera {
+    gap: 10px;
+    padding: 0 12px;
+  }
+
+  .cabecera__menu {
+    display: inline-grid;
+  }
+
+  .nav {
+    z-index: 75;
+    transform: translateX(-100%);
+    visibility: hidden;
+    transition: transform 0.2s ease, visibility 0s linear 0.2s;
+    box-shadow: var(--sombra-3);
+  }
+
+  body.nav-abierta .nav {
+    transform: none;
+    visibility: visible;
+    transition: transform 0.2s ease, visibility 0s;
+  }
+
+  .principal {
+    margin-left: 0;
+    padding: 20px 16px 28px;
+  }
+
+  .cabecera__asistentes span,
+  #btn-salir span {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .cabecera__nombre {
+    display: none;
+  }
+
+  .cabecera__buscador {
+    min-width: 0;
+  }
+
+  .lanzador-asistentes {
+    right: 16px;
+    bottom: 16px;
+  }
+}
+
+/* Nombre del portal y de la marca: se recortan con puntos suspensivos si falta espacio. */
+.cabecera__marca {
+  flex: 0 1 auto;
+}
+
+.cabecera__nombre {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

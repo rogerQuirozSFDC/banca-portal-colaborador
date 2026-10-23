@@ -1,0 +1,68 @@
+[
+  {
+    "id": "inicio",
+    "titulo": "Inicio",
+    "icono": "home",
+    "descripcion": "Tu día, comunicados destacados, indicadores de mercado y accesos rápidos."
+  },
+  {
+    "id": "comunicados",
+    "titulo": "Comunicados",
+    "icono": "megaphone",
+    "descripcion": "Noticias internas, campañas, cambios operativos y alertas de seguridad."
+  },
+  {
+    "id": "agenda",
+    "titulo": "Agenda corporativa",
+    "icono": "calendar",
+    "descripcion": "Comités, capacitaciones, eventos internos, cierres de mes y feriados."
+  },
+  {
+    "id": "normativa",
+    "titulo": "Normativa y políticas",
+    "icono": "book",
+    "descripcion": "Políticas y manuales internos vigentes, con versión, área dueña y fecha de vigencia."
+  },
+  {
+    "id": "formacion",
+    "titulo": "Formación",
+    "icono": "school",
+    "descripcion": "Cursos obligatorios, rutas de aprendizaje sugeridas y certificaciones internas."
+  },
+  {
+    "id": "rrhh",
+    "titulo": "Mi RR.HH.",
+    "icono": "person",
+    "descripcion": "Vacaciones, boletas, beneficios, objetivos, desempeño y clima laboral."
+  },
+  {
+    "id": "solicitudes",
+    "titulo": "Solicitudes internas",
+    "icono": "inbox",
+    "descripcion": "Mesa de ayuda, reembolsos, salas, constancias, Legal y Operaciones."
+  },
+  {
+    "id": "riesgos",
+    "titulo": "Riesgos y comités",
+    "icono": "shield",
+    "descripcion": "Calendario de comités de crédito, estado de propuestas y requisitos del expediente."
+  },
+  {
+    "id": "directorio",
+    "titulo": "Directorio",
+    "icono": "contacts",
+    "descripcion": "Especialistas por producto y contactos clave de las áreas de soporte."
+  },
+  {
+    "id": "herramientas",
+    "titulo": "Herramientas",
+    "icono": "tools",
+    "descripcion": "Simuladores, calculadora de comisiones, plantillas comerciales y sistemas internos."
+  },
+  {
+    "id": "mercados",
+    "titulo": "Mercados",
+    "icono": "chart",
+    "descripcion": "Tipo de cambio, tasas de referencia, comentario económico y agenda de datos macro."
+  }
+]

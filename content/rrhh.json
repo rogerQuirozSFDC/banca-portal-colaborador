@@ -1,0 +1,214 @@
+{
+  "id": "rrhh",
+  "titulo": "Mi RR.HH.",
+  "intro": "Tus vacaciones, boletas, beneficios y objetivos del año en un solo lugar. Para consultas personales, escribe a tu Business Partner de Gestión Humana.",
+  "bloques": [
+    {
+      "tipo": "kpis",
+      "titulo": "Resumen",
+      "items": [
+        {
+          "titulo": "Vacaciones disponibles",
+          "valor": "18",
+          "unidad": "días",
+          "etiqueta": "Período 2025-2026"
+        },
+        {
+          "titulo": "Días por programar antes del 31/12",
+          "valor": "8",
+          "unidad": "días",
+          "etiqueta": "Para no acumular dos períodos"
+        },
+        {
+          "titulo": "Día libre por cumpleaños",
+          "valor": "1",
+          "unidad": "día",
+          "etiqueta": "Disponible hasta el 31/12"
+        },
+        {
+          "titulo": "Encuesta de clima",
+          "valor": "Pendiente",
+          "etiqueta": "Cierra el 06/11"
+        }
+      ]
+    },
+    {
+      "tipo": "formulario",
+      "titulo": "Solicitar vacaciones",
+      "campos": [
+        {
+          "etiqueta": "Tipo de solicitud",
+          "tipo": "seleccion",
+          "opciones": [
+            "Vacaciones",
+            "Adelanto de vacaciones",
+            "Día libre por cumpleaños"
+          ]
+        },
+        {
+          "etiqueta": "Fecha de inicio",
+          "tipo": "fecha"
+        },
+        {
+          "etiqueta": "Fecha de fin",
+          "tipo": "fecha"
+        },
+        {
+          "etiqueta": "Colaborador que te reemplaza con tus clientes",
+          "tipo": "texto"
+        },
+        {
+          "etiqueta": "Comentario para tu jefe",
+          "tipo": "texto"
+        }
+      ],
+      "accion": {
+        "etiqueta": "Enviar solicitud",
+        "confirmacion": "Tu solicitud fue enviada a tu jefe para su aprobación. Te avisaremos por correo cuando la apruebe."
+      }
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Boletas y constancias",
+      "items": [
+        {
+          "titulo": "Boleta de pago de septiembre 2026",
+          "fecha": "2026-09-30",
+          "estado": "Disponible",
+          "etiqueta": "Boleta"
+        },
+        {
+          "titulo": "Boleta de pago de agosto 2026",
+          "fecha": "2026-08-31",
+          "estado": "Disponible",
+          "etiqueta": "Boleta"
+        },
+        {
+          "titulo": "Boleta de gratificación de julio 2026",
+          "fecha": "2026-07-15",
+          "estado": "Disponible",
+          "etiqueta": "Gratificación"
+        },
+        {
+          "titulo": "Constancia de depósito de CTS — mayo 2026",
+          "fecha": "2026-05-15",
+          "estado": "Disponible",
+          "etiqueta": "CTS"
+        },
+        {
+          "titulo": "Boleta de pago de octubre 2026",
+          "resumen": "Se publicará el último día hábil del mes.",
+          "fecha": "2026-10-30",
+          "estado": "Próximamente",
+          "etiqueta": "Boleta"
+        }
+      ]
+    },
+    {
+      "tipo": "tarjetas",
+      "titulo": "Beneficios",
+      "items": [
+        {
+          "titulo": "EPS para ti y tu familia",
+          "resumen": "Plan de salud con cobertura para tus dependientes. La renovación anual y el cambio de plan se hacen del 2 al 20 de noviembre.",
+          "etiqueta": "Salud",
+          "area": "Compensaciones y Beneficios"
+        },
+        {
+          "titulo": "Préstamo al colaborador",
+          "resumen": "Tasa preferencial para libre disponibilidad, vehicular e hipotecario, con descuento por planilla.",
+          "etiqueta": "Financiero",
+          "area": "Compensaciones y Beneficios"
+        },
+        {
+          "titulo": "Días libres",
+          "resumen": "Día libre por cumpleaños, por matrimonio y por mudanza, además de las licencias que establece la ley.",
+          "etiqueta": "Bienestar",
+          "area": "Gestión Humana"
+        },
+        {
+          "titulo": "Horario de verano",
+          "resumen": "Los viernes de enero a marzo, salida a las 14:00 para el personal de sede, según la programación de tu área.",
+          "etiqueta": "Bienestar",
+          "area": "Gestión Humana"
+        }
+      ]
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Objetivos 2026",
+      "items": [
+        {
+          "titulo": "Resultados comerciales de la cartera",
+          "resumen": "Colocaciones, recursos y vinculación transaccional de tu cartera de empresas. Peso: 50 %.",
+          "detalle": "El avance se consolida con el cierre de cada mes.",
+          "estado": "En seguimiento",
+          "etiqueta": "Peso 50 %",
+          "cta": {
+            "agente": "radar",
+            "frase": "Dame el ranking de mi cartera por prioridad"
+          }
+        },
+        {
+          "titulo": "Calidad de cartera y cumplimiento",
+          "resumen": "Cartera sin atrasos, expedientes KYB al día y seguimiento de alertas. Peso: 20 %.",
+          "estado": "En curso",
+          "progreso": 80,
+          "etiqueta": "Peso 20 %"
+        },
+        {
+          "titulo": "Experiencia del cliente",
+          "resumen": "Satisfacción de tus clientes y tiempos de respuesta a sus solicitudes. Peso: 15 %.",
+          "estado": "En curso",
+          "progreso": 70,
+          "etiqueta": "Peso 15 %",
+          "cta": {
+            "agente": "brujula",
+            "frase": "¿Qué clientes debo atender hoy?"
+          }
+        },
+        {
+          "titulo": "Desarrollo profesional",
+          "resumen": "Cursos obligatorios y una ruta sugerida completa en el año. Peso: 15 %.",
+          "estado": "En curso",
+          "progreso": 65,
+          "etiqueta": "Peso 15 %",
+          "enlace": "#/formacion"
+        }
+      ]
+    },
+    {
+      "tipo": "avisos",
+      "titulo": "Recordatorios",
+      "items": [
+        {
+          "titulo": "Antes de pedir vacaciones, revisa tu agenda con clientes",
+          "resumen": "Confirma que no tengas visitas ni comités comprometidos en las fechas que vas a solicitar.",
+          "etiqueta": "Vacaciones",
+          "cta": {
+            "agente": "brujula",
+            "frase": "¿Qué reuniones tengo en los próximos 7 días?"
+          }
+        },
+        {
+          "titulo": "Autoevaluación de desempeño 2026",
+          "resumen": "Del 2 al 20 de noviembre. Después tendrás la conversación de cierre con tu jefe y la calibración se realiza en diciembre.",
+          "fecha": "2026-11-02",
+          "etiqueta": "Desempeño"
+        },
+        {
+          "titulo": "Encuesta de clima laboral 2026",
+          "resumen": "Es anónima y toma diez minutos. La participación de Banca Empresas va en 64 %. Cierra el viernes 6 de noviembre.",
+          "fecha": "2026-11-06",
+          "etiqueta": "Clima"
+        },
+        {
+          "titulo": "Depósito de CTS de noviembre",
+          "resumen": "Se deposita en tu cuenta CTS a más tardar el 15 de noviembre.",
+          "fecha": "2026-11-15",
+          "etiqueta": "Compensaciones"
+        }
+      ]
+    }
+  ]
+}

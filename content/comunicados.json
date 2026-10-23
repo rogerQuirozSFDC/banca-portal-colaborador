@@ -1,0 +1,161 @@
+{
+  "id": "comunicados",
+  "titulo": "Comunicados",
+  "intro": "Lo que necesitas saber esta semana en Banca Empresas: campañas, cambios operativos, normativa interna y seguridad.",
+  "bloques": [
+    {
+      "tipo": "destacado",
+      "titulo": "Lo más importante",
+      "items": [
+        {
+          "id": "com-phishing-mesa-ayuda",
+          "titulo": "Alerta de phishing: correos falsos que suplantan a la Mesa de Ayuda",
+          "resumen": "Circulan correos que piden validar tu contraseña o tu token por un supuesto vencimiento de la cuenta. No hagas clic ni respondas.",
+          "detalle": "Desde el martes detectamos correos con el asunto Tu cuenta será desactivada hoy, enviados desde dominios parecidos al nuestro. La Mesa de Ayuda nunca te pedirá tu contraseña, tu token ni códigos de verificación por correo, chat o llamada. Si recibiste uno: no abras enlaces ni adjuntos, repórtalo con el botón Reportar correo sospechoso de tu bandeja y, si ya ingresaste tus datos, llama de inmediato al anexo 1000 opción 3. Recuerda que tus clientes también pueden recibir correos que simulan ser del banco: si alguno te consulta, pídele que no comparta claves y que se comunique por los canales oficiales.",
+          "fecha": "2026-10-22",
+          "etiqueta": "Urgente",
+          "area": "Seguridad de la Información",
+          "autor": "Oficina de Seguridad de la Información"
+        },
+        {
+          "id": "com-campana-nominas-2026",
+          "titulo": "Campaña Nóminas 2026 — Pago de Haberes Empresas: metas e incentivos del cierre de año",
+          "resumen": "Hasta el 18 de diciembre sumamos empresas al servicio de pago de haberes. Meta por gerente de relación: tres nuevos convenios activos.",
+          "detalle": "La campaña busca que más empresas de nuestra cartera paguen sus planillas con nosotros y que sus colaboradores reciban su sueldo en una cuenta del banco. Cuenta como convenio activo la empresa que firma el contrato y procesa su primera planilla antes del 18/12/2026. Incentivo: un bono adicional en el esquema variable del cuarto trimestre por cada convenio por encima de la meta y reconocimiento a los tres equipos con mayor avance en el town hall de enero. Material de apoyo: propuesta de pago de haberes y argumentario en Herramientas. Soporte de implementación: equipo de Cash Management.",
+          "fecha": "2026-10-19",
+          "etiqueta": "Campaña",
+          "area": "Banca Empresas",
+          "autor": "Gerencia Comercial Banca Empresas",
+          "enlace": "#/herramientas",
+          "cta": {
+            "agente": "radar",
+            "frase": "¿A qué empresas de mi cartera debo visitar este mes?"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Comunicados recientes",
+      "items": [
+        {
+          "id": "com-horario-comex",
+          "titulo": "Nuevo horario de Operaciones de Comercio Exterior desde el lunes 2 de noviembre",
+          "resumen": "Recepción de operaciones de lunes a viernes de 09:00 a 17:00. El corte para transferencias al exterior con abono el mismo día pasa a las 14:00.",
+          "detalle": "Las cartas de crédito, cobranzas documentarias y financiamientos de importación y exportación se reciben de 09:00 a 17:00. Las transferencias al exterior ingresadas después de las 14:00 se procesan el siguiente día hábil. Comunica el cambio a tus clientes importadores y exportadores con anticipación, sobre todo a quienes operan en la segunda mitad del día.",
+          "fecha": "2026-10-22",
+          "etiqueta": "Operaciones",
+          "area": "Operaciones de Comercio Exterior",
+          "autor": "Gerencia de Operaciones",
+          "cta": {
+            "agente": "atlas",
+            "frase": "Prepárame la visita a Pesquera Pacífico Azul"
+          }
+        },
+        {
+          "id": "com-tarifario-empresas",
+          "titulo": "Actualización del tarifario de comisiones de Banca Empresas, vigente desde el 1 de diciembre",
+          "resumen": "Se actualizan comisiones de transferencias al exterior, cartas fianza y cobranzas documentarias. Pago de haberes y recaudación no cambian.",
+          "detalle": "El tarifario actualizado rige desde el 01/12/2026. Los clientes reciben la comunicación previa desde el 26/10 por los canales y con la anticipación que fija nuestro procedimiento de transparencia. Si un cliente requiere una condición distinta, tramítala según el Manual de Excepciones de Tasa y Comisiones. La calculadora de comisiones de Herramientas ya incluye ambas versiones.",
+          "fecha": "2026-10-21",
+          "etiqueta": "Productos",
+          "area": "Productos y Precios Banca Empresas",
+          "autor": "Gerencia de Productos Empresas",
+          "enlace": "#/herramientas"
+        },
+        {
+          "id": "com-beneficiario-final",
+          "titulo": "Nuevo procedimiento de identificación del beneficiario final de personas jurídicas",
+          "resumen": "Desde el 3 de noviembre, toda nueva operación de una empresa exige su declaración de beneficiario final actualizada y su KYB vigente.",
+          "detalle": "El procedimiento unifica el formato de declaración jurada, incorpora la validación de la cadena de control cuando la empresa pertenece a un grupo y fija un plazo de 30 días para regularizar expedientes KYB vencidos. Las empresas con KYB vencido no podrán ampliar líneas ni contratar nuevos productos hasta regularizarlo. Revisa tu cartera y agenda la actualización con tus clientes.",
+          "fecha": "2026-10-16",
+          "etiqueta": "Cumplimiento",
+          "area": "Cumplimiento Normativo",
+          "autor": "Oficialía de Cumplimiento",
+          "enlace": "#/normativa",
+          "cta": {
+            "agente": "radar",
+            "frase": "¿Qué empresas de mi cartera tienen el KYB vencido?"
+          }
+        },
+        {
+          "id": "com-town-hall-noviembre",
+          "titulo": "Town hall de Banca Empresas: jueves 5 de noviembre, 17:30",
+          "resumen": "Resultados del tercer trimestre, prioridades del cierre de año y espacio de preguntas con la Gerencia de Banca Empresas.",
+          "detalle": "Será en el auditorio del piso 2 de la Oficina Principal en San Isidro, con transmisión en línea para las oficinas de provincia. Envía tus preguntas con anticipación al buzón de Comunicación Interna hasta el 3/11.",
+          "fecha": "2026-10-21",
+          "etiqueta": "Evento",
+          "area": "Comunicación Interna",
+          "autor": "Comunicación Interna",
+          "enlace": "#/agenda"
+        },
+        {
+          "id": "com-simulacro-continuidad",
+          "titulo": "Simulacro de continuidad operativa: jueves 12 de noviembre, de 10:00 a 11:30",
+          "resumen": "Evacuación de la Oficina Principal y activación del sitio alterno de Operaciones. Participación obligatoria del personal en sede.",
+          "detalle": "A las 10:00 sonará la alarma. Sigue las indicaciones de tu brigadista y dirígete al punto de reunión asignado a tu piso. Los equipos críticos de Operaciones y Tesorería pasan al sitio alterno según su plan de continuidad. Si ese día tienes reuniones con clientes en la sede, reprográmalas o trasládalas a una oficina cercana.",
+          "fecha": "2026-10-20",
+          "etiqueta": "Continuidad",
+          "area": "Gestión de Continuidad del Negocio",
+          "autor": "Gerencia de Riesgo Operacional"
+        },
+        {
+          "id": "com-resultados-3t",
+          "titulo": "Banca Empresas cerró el tercer trimestre por encima de su meta de colocaciones",
+          "resumen": "El área superó su meta trimestral de colocaciones y creció en recursos transaccionales, impulsada por cash management y comercio exterior.",
+          "detalle": "Las cifras corresponden a indicadores de gestión interna del área y no constituyen información financiera oficial. Destacan el avance de la vinculación transaccional (pago de haberes, pagos a proveedores y recaudación) y la mejora en los tiempos de respuesta de las propuestas de crédito. Para el cuarto trimestre, el foco está en la campaña Nóminas 2026 y en mantener la calidad de la cartera.",
+          "fecha": "2026-10-15",
+          "etiqueta": "Resultados",
+          "area": "Banca Empresas",
+          "autor": "Gerencia de Banca Empresas"
+        },
+        {
+          "id": "com-reconocimiento-cash",
+          "titulo": "Reconocimiento al equipo de Cash Management Lima",
+          "resumen": "Por implementar en tiempo récord los servicios de pagos y recaudación de las empresas que se sumaron este trimestre.",
+          "detalle": "El equipo coordinó con Operaciones y Tecnología la puesta en marcha de los servicios sin incidencias en los primeros pagos. Gracias por el compromiso y por el acompañamiento cercano a los gerentes de relación. El reconocimiento se entregará en el town hall de noviembre.",
+          "fecha": "2026-10-14",
+          "etiqueta": "Reconocimiento",
+          "area": "Gestión Humana",
+          "autor": "Gestión Humana"
+        },
+        {
+          "id": "com-gastos-representacion",
+          "titulo": "Actualización de la Política de Gastos de Representación",
+          "resumen": "Registra tus gastos dentro de los cinco días hábiles siguientes, con comprobante electrónico y el nombre de la empresa atendida.",
+          "detalle": "La versión 3.1 precisa los topes por tipo de atención, exige el comprobante electrónico a nombre del banco y detallar asistentes y motivo comercial. Los gastos del mes se cierran el último día hábil: para octubre, el viernes 30/10 a las 18:00.",
+          "fecha": "2026-10-13",
+          "etiqueta": "Políticas",
+          "area": "Contraloría",
+          "autor": "Gerencia de Contraloría",
+          "enlace": "#/solicitudes"
+        }
+      ]
+    },
+    {
+      "tipo": "avisos",
+      "titulo": "Recordatorios de la semana",
+      "items": [
+        {
+          "titulo": "Comité semanal de Banca Empresas",
+          "resumen": "Viernes 23/10 a las 08:30 en la Oficina Principal de San Isidro: pipeline y campaña Nóminas 2026.",
+          "fecha": "2026-10-23",
+          "hora": "08:30",
+          "etiqueta": "Comité",
+          "cta": {
+            "agente": "brujula",
+            "frase": "¿Qué reuniones tengo en los próximos 7 días?"
+          }
+        },
+        {
+          "titulo": "Cierre de gastos de octubre",
+          "resumen": "Último día para registrar gastos de representación del mes: viernes 30/10 hasta las 18:00.",
+          "fecha": "2026-10-30",
+          "hora": "18:00",
+          "etiqueta": "Cierre de mes",
+          "enlace": "#/solicitudes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "normativa",
+  "titulo": "Normativa y políticas",
+  "intro": "Políticas y manuales internos vigentes para Banca Empresas. Ante cualquier duda de interpretación, consulta al área dueña del documento.",
+  "bloques": [
+    {
+      "tipo": "avisos",
+      "titulo": "Cambios recientes",
+      "items": [
+        {
+          "titulo": "Nueva versión de la Política Conozca a su Cliente — Personas Jurídicas y Beneficiario Final",
+          "resumen": "La versión 5.0 rige desde el 03/11/2026: declaración de beneficiario final actualizada y KYB vigente para toda nueva operación.",
+          "fecha": "2026-10-16",
+          "etiqueta": "Nueva versión",
+          "area": "Cumplimiento Normativo",
+          "cta": {
+            "agente": "radar",
+            "frase": "¿Qué empresas de mi cartera tienen el KYB vencido?"
+          }
+        },
+        {
+          "titulo": "Manual de Excepciones de Tasa y Comisiones actualizado",
+          "resumen": "La versión 2.4 simplifica los niveles de aprobación y agrega el sustento de rentabilidad de la relación para cada excepción.",
+          "fecha": "2026-10-15",
+          "etiqueta": "Actualizado",
+          "area": "Productos y Precios Banca Empresas"
+        }
+      ]
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Documentos vigentes",
+      "columnas": ["Documento", "Versión", "Área dueña", "Vigente desde", "Estado"],
+      "filas": [
+        ["Política de Crédito Banca Empresas", "7.2", "Gerencia de Riesgos", "01/07/2026", "Vigente"],
+        ["Manual de Admisión y Seguimiento de Créditos Empresas", "4.0", "Gerencia de Riesgos", "01/07/2026", "Vigente"],
+        ["Política Conozca a su Cliente — Personas Jurídicas y Beneficiario Final", "5.0", "Cumplimiento Normativo", "03/11/2026", "Próxima a entrar en vigencia"],
+        ["Manual de Prevención del Lavado de Activos y del Financiamiento del Terrorismo", "9.0", "Cumplimiento Normativo", "01/04/2026", "Vigente"],
+        ["Manual de Excepciones de Tasa y Comisiones", "2.4", "Productos y Precios Banca Empresas", "15/10/2026", "Vigente"],
+        ["Política de Gastos de Representación", "3.1", "Contraloría", "01/09/2026", "Vigente"],
+        ["Política de Protección de Datos Personales", "4.2", "Legal y Oficial de Datos Personales", "01/06/2026", "Vigente"],
+        ["Política de Seguridad de la Información", "6.1", "Seguridad de la Información", "15/03/2026", "Vigente"],
+        ["Código de Ética y Conducta", "2026", "Gestión Humana y Cumplimiento", "02/01/2026", "Vigente"]
+      ]
+    },
+    {
+      "tipo": "tarjetas",
+      "titulo": "Lo esencial de cada política",
+      "items": [
+        {
+          "titulo": "Política de Crédito Banca Empresas",
+          "resumen": "Criterios de admisión, niveles de atribución, garantías y seguimiento de la cartera de empresas.",
+          "detalle": "Toda propuesta se sustenta en un expediente completo y validado antes de pasar a Riesgos. Las propuestas que superan la atribución del área se elevan al comité que corresponda según el monto y el riesgo del grupo económico.",
+          "etiqueta": "Versión 7.2",
+          "area": "Gerencia de Riesgos",
+          "fecha": "2026-07-01",
+          "cta": {
+            "agente": "ancla",
+            "frase": "Valida los campos del expediente de la solicitud AF-00000009 de Corporación Minera Los Andes"
+          }
+        },
+        {
+          "titulo": "Conozca a su Cliente — Personas Jurídicas y Beneficiario Final",
+          "resumen": "Identificación de la empresa, de sus representantes y de las personas naturales que la controlan o se benefician de ella.",
+          "detalle": "El KYB se actualiza al menos una vez al año o antes si cambia la estructura societaria. La declaración de beneficiario final se firma por el representante legal y se valida contra la información societaria disponible.",
+          "etiqueta": "Versión 5.0",
+          "area": "Cumplimiento Normativo",
+          "fecha": "2026-11-03",
+          "cta": {
+            "agente": "radar",
+            "frase": "¿Qué empresas de mi cartera tienen alertas?"
+          }
+        },
+        {
+          "titulo": "Gastos de representación",
+          "resumen": "Topes por tipo de atención, comprobante electrónico a nombre del banco y registro dentro de los cinco días hábiles.",
+          "detalle": "Indica siempre la empresa atendida, los asistentes y el motivo comercial. Los gastos que superan el tope requieren la aprobación previa de tu gerente.",
+          "etiqueta": "Versión 3.1",
+          "area": "Contraloría",
+          "fecha": "2026-09-01",
+          "enlace": "#/solicitudes"
+        },
+        {
+          "titulo": "Excepciones de tasa y comisiones",
+          "resumen": "Cómo solicitar una tasa o comisión distinta del tarifario y quién la aprueba según el impacto en la rentabilidad de la relación.",
+          "detalle": "La solicitud incluye la propuesta de valor para el cliente, la rentabilidad de la relación y el plazo de la condición. Las excepciones se revisan cada seis meses.",
+          "etiqueta": "Versión 2.4",
+          "area": "Productos y Precios Banca Empresas",
+          "fecha": "2026-10-15",
+          "enlace": "#/herramientas"
+        },
+        {
+          "titulo": "Prevención de LA/FT",
+          "resumen": "Señales de alerta, debida diligencia reforzada y reporte interno de operaciones inusuales.",
+          "detalle": "Ante una operación inusual, repórtala de inmediato al Oficial de Cumplimiento por el canal interno. No informes al cliente sobre el reporte.",
+          "etiqueta": "Versión 9.0",
+          "area": "Cumplimiento Normativo",
+          "fecha": "2026-04-01",
+          "enlace": "#/formacion"
+        },
+        {
+          "titulo": "Protección de datos personales",
+          "resumen": "Uso de los datos de clientes y colaboradores solo para la finalidad autorizada, con acceso mínimo necesario.",
+          "detalle": "No envíes información de clientes a correos personales ni la compartas por aplicaciones no autorizadas. Ante un incidente, avisa al Oficial de Datos Personales en las primeras horas.",
+          "etiqueta": "Versión 4.2",
+          "area": "Legal y Oficial de Datos Personales",
+          "fecha": "2026-06-01"
+        }
+      ]
+    }
+  ]
+}

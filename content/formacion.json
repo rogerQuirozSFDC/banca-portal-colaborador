@@ -1,0 +1,131 @@
+{
+  "id": "formacion",
+  "titulo": "Formación",
+  "intro": "Tus cursos obligatorios del año, las rutas sugeridas para tu rol de Gerente de Relación y las certificaciones internas disponibles.",
+  "bloques": [
+    {
+      "tipo": "kpis",
+      "titulo": "Tu avance 2026",
+      "items": [
+        {
+          "titulo": "Cursos obligatorios completados",
+          "valor": "1 de 4",
+          "etiqueta": "Plazo final: 15/12/2026"
+        },
+        {
+          "titulo": "Horas de formación en el año",
+          "valor": "38",
+          "unidad": "horas",
+          "etiqueta": "Meta anual: 48 horas"
+        },
+        {
+          "titulo": "Próximo vencimiento",
+          "valor": "15/11",
+          "etiqueta": "Ciberseguridad"
+        }
+      ]
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Cursos obligatorios",
+      "items": [
+        {
+          "titulo": "Ciberseguridad: phishing e ingeniería social",
+          "resumen": "Cómo reconocer correos, llamadas y mensajes fraudulentos, y qué hacer si caíste en uno. 45 minutos.",
+          "fecha": "2026-11-15",
+          "estado": "Pendiente",
+          "progreso": 0,
+          "etiqueta": "Obligatorio",
+          "area": "Seguridad de la Información"
+        },
+        {
+          "titulo": "Prevención de LA/FT — actualización anual 2026",
+          "resumen": "Señales de alerta, debida diligencia de personas jurídicas, beneficiario final y reporte de operaciones inusuales. 3 módulos.",
+          "detalle": "La capacitación virtual del 28/10 sobre señales de alerta en personas jurídicas convalida el módulo 3.",
+          "fecha": "2026-11-30",
+          "estado": "En curso",
+          "progreso": 60,
+          "etiqueta": "Obligatorio",
+          "area": "Cumplimiento Normativo",
+          "cta": {
+            "agente": "radar",
+            "frase": "¿Qué empresas de mi cartera tienen el KYB vencido?"
+          }
+        },
+        {
+          "titulo": "Protección de datos personales",
+          "resumen": "Finalidad, consentimiento, acceso mínimo y gestión de incidentes con datos de clientes. 60 minutos.",
+          "fecha": "2026-12-15",
+          "estado": "En curso",
+          "progreso": 35,
+          "etiqueta": "Obligatorio",
+          "area": "Legal y Oficial de Datos Personales"
+        },
+        {
+          "titulo": "Código de Ética y Conducta 2026",
+          "resumen": "Conflictos de interés, regalos y atenciones, uso de información y canal de integridad.",
+          "fecha": "2026-09-15",
+          "estado": "Completado",
+          "progreso": 100,
+          "etiqueta": "Obligatorio",
+          "area": "Gestión Humana y Cumplimiento"
+        }
+      ]
+    },
+    {
+      "tipo": "tarjetas",
+      "titulo": "Rutas sugeridas para tu rol",
+      "items": [
+        {
+          "titulo": "Cash management para empresas",
+          "resumen": "Pagos a proveedores, pago de haberes, recaudación y gestión de liquidez. 5 módulos, 8 horas.",
+          "detalle": "Incluye un taller práctico de armado de propuestas de pago de haberes para la campaña Nóminas 2026.",
+          "estado": "En curso",
+          "progreso": 40,
+          "etiqueta": "Ruta sugerida",
+          "area": "Escuela de Negocios Empresas",
+          "cta": {
+            "agente": "atlas",
+            "frase": "Prepárame la visita a Distribuidora Central"
+          }
+        },
+        {
+          "titulo": "Comercio exterior",
+          "resumen": "Cartas de crédito, cobranzas documentarias, financiamiento de importaciones y exportaciones, y coberturas cambiarias. 6 módulos, 10 horas.",
+          "detalle": "Incluye casos de exportadores con estacionalidad y de ampliación de líneas de comercio exterior.",
+          "estado": "No iniciado",
+          "progreso": 0,
+          "etiqueta": "Ruta sugerida",
+          "area": "Escuela de Negocios Empresas",
+          "cta": {
+            "agente": "atlas",
+            "frase": "Prepárame la visita a Pesquera Pacífico Azul"
+          }
+        },
+        {
+          "titulo": "Análisis financiero de empresas",
+          "resumen": "Lectura de estados financieros, flujo de caja proyectado y capacidad de pago para propuestas de crédito. 4 módulos, 6 horas.",
+          "estado": "Completado",
+          "progreso": 100,
+          "etiqueta": "Ruta sugerida",
+          "area": "Gerencia de Riesgos",
+          "cta": {
+            "agente": "ancla",
+            "frase": "Prellena el bloque de Riesgo Financiero de la solicitud de Corporación Minera Los Andes"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Certificaciones internas",
+      "columnas": ["Certificación", "Dirigida a", "Próxima convocatoria", "Estado"],
+      "filas": [
+        ["Gerente de Relación Empresas — nivel avanzado", "Gerentes de Relación con más de 2 años en el rol", "Inscripciones hasta el 13/11/2026", "Elegible"],
+        ["Especialista en Comercio Exterior", "Gerentes de Relación y especialistas de producto", "Examen el 04/12/2026", "Requiere la ruta Comercio exterior"],
+        ["Tesorería y coberturas cambiarias", "Gerentes de Relación con clientes importadores y exportadores", "Marzo de 2027", "Disponible"],
+        ["Finanzas sostenibles para empresas", "Banca Empresas y Riesgos", "Febrero de 2027", "Disponible"]
+      ]
+    }
+  ]
+}

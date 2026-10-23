@@ -1,0 +1,242 @@
+{
+  "id": "inicio",
+  "titulo": "Inicio",
+  "intro": "Tu día, las novedades del banco y tus asistentes en un solo lugar.",
+  "bienvenida": {
+    "titulo": "Te damos la bienvenida a tu Portal del Colaborador",
+    "resumen": "Revisa tu día, las novedades del banco y lo que vence esta semana. Para tu cartera, tus visitas y tus expedientes, pídeselo a tus asistentes del panel derecho."
+  },
+  "destacados": [
+    {
+      "id": "com-campana-nominas-2026",
+      "titulo": "Campaña Nóminas 2026 — Pago de Haberes Empresas",
+      "resumen": "Hasta el 18/12 sumamos empresas al pago de haberes. Meta por gerente de relación: tres nuevos convenios activos, con bono adicional por cada convenio sobre la meta.",
+      "fecha": "2026-10-19",
+      "etiqueta": "Campaña",
+      "area": "Banca Empresas",
+      "enlace": "#/comunicados",
+      "cta": {
+        "agente": "radar",
+        "frase": "¿A qué empresas de mi cartera debo visitar este mes?"
+      }
+    },
+    {
+      "id": "com-phishing-mesa-ayuda",
+      "titulo": "Alerta de phishing: correos falsos que suplantan a la Mesa de Ayuda",
+      "resumen": "Nunca te pediremos tu contraseña ni tu token por correo. Si recibiste uno, repórtalo con el botón Reportar correo sospechoso.",
+      "fecha": "2026-10-22",
+      "etiqueta": "Urgente",
+      "area": "Seguridad de la Información",
+      "enlace": "#/comunicados"
+    },
+    {
+      "id": "com-beneficiario-final",
+      "titulo": "Nuevo procedimiento de beneficiario final desde el 3 de noviembre",
+      "resumen": "Toda nueva operación de una empresa exigirá su declaración de beneficiario final actualizada y su KYB vigente.",
+      "fecha": "2026-10-16",
+      "etiqueta": "Cumplimiento",
+      "area": "Cumplimiento Normativo",
+      "enlace": "#/comunicados",
+      "cta": {
+        "agente": "radar",
+        "frase": "¿Qué empresas de mi cartera tienen el KYB vencido?"
+      }
+    },
+    {
+      "id": "com-horario-comex",
+      "titulo": "Nuevo horario de Operaciones de Comercio Exterior desde el 2 de noviembre",
+      "resumen": "El corte para transferencias al exterior con abono el mismo día pasa a las 14:00. Comunícalo a tus clientes importadores y exportadores.",
+      "fecha": "2026-10-22",
+      "etiqueta": "Operaciones",
+      "area": "Operaciones de Comercio Exterior",
+      "enlace": "#/comunicados",
+      "cta": {
+        "agente": "atlas",
+        "frase": "Prepárame la visita a Pesquera Pacífico Azul"
+      }
+    }
+  ],
+  "indicadores": [
+    {
+      "titulo": "Dólar — venta",
+      "valor": "3.768",
+      "unidad": "S/ por US$",
+      "variacion": "+0.003",
+      "etiqueta": "Valores referenciales",
+      "enlace": "#/mercados"
+    },
+    {
+      "titulo": "Dólar — compra",
+      "valor": "3.735",
+      "unidad": "S/ por US$",
+      "variacion": "+0.004",
+      "etiqueta": "Valores referenciales",
+      "enlace": "#/mercados"
+    },
+    {
+      "titulo": "Tasa de referencia (BCRP)",
+      "valor": "4.25",
+      "unidad": "%",
+      "variacion": "Sin cambio",
+      "etiqueta": "Valores referenciales",
+      "enlace": "#/mercados"
+    },
+    {
+      "titulo": "Interbancaria en soles",
+      "valor": "4.24",
+      "unidad": "%",
+      "variacion": "-0.01 pp",
+      "etiqueta": "Valores referenciales",
+      "enlace": "#/mercados"
+    },
+    {
+      "titulo": "Cobre",
+      "valor": "4.92",
+      "unidad": "US$ por libra",
+      "variacion": "+1.1 %",
+      "etiqueta": "Valores referenciales",
+      "enlace": "#/mercados"
+    }
+  ],
+  "cursos": [
+    {
+      "titulo": "Ciberseguridad: phishing e ingeniería social",
+      "fecha": "2026-11-15",
+      "estado": "Pendiente",
+      "progreso": 0,
+      "etiqueta": "Obligatorio",
+      "enlace": "#/formacion"
+    },
+    {
+      "titulo": "Prevención de LA/FT — actualización anual 2026",
+      "fecha": "2026-11-30",
+      "estado": "En curso",
+      "progreso": 60,
+      "etiqueta": "Obligatorio",
+      "enlace": "#/formacion"
+    },
+    {
+      "titulo": "Protección de datos personales",
+      "fecha": "2026-12-15",
+      "estado": "En curso",
+      "progreso": 35,
+      "etiqueta": "Obligatorio",
+      "enlace": "#/formacion"
+    }
+  ],
+  "accesos": [
+    {
+      "titulo": "Solicitar vacaciones",
+      "resumen": "18 días disponibles",
+      "icono": "person",
+      "enlace": "#/rrhh"
+    },
+    {
+      "titulo": "Registrar gasto de representación",
+      "resumen": "Cierre de octubre: 30/10, 18:00",
+      "icono": "inbox",
+      "enlace": "#/solicitudes"
+    },
+    {
+      "titulo": "Comités de crédito",
+      "resumen": "Martes y jueves, 16:00",
+      "icono": "shield",
+      "enlace": "#/riesgos"
+    },
+    {
+      "titulo": "Simuladores y comisiones",
+      "resumen": "Préstamo, leasing, forward y tarifario",
+      "icono": "tools",
+      "enlace": "#/herramientas"
+    },
+    {
+      "titulo": "Directorio de especialistas",
+      "resumen": "Cash management, comercio exterior y más",
+      "icono": "contacts",
+      "enlace": "#/directorio"
+    },
+    {
+      "titulo": "Mesa de Ayuda de Tecnología",
+      "resumen": "Anexo 1000, las 24 horas",
+      "icono": "inbox",
+      "enlace": "#/solicitudes"
+    }
+  ],
+  "avisos": [
+    {
+      "titulo": "Comité semanal de Banca Empresas: viernes 23/10, 08:30",
+      "resumen": "Oficina Principal de San Isidro, sala de directorio del piso 10. Pipeline y campaña Nóminas 2026.",
+      "fecha": "2026-10-23",
+      "hora": "08:30",
+      "etiqueta": "Comité",
+      "cta": {
+        "agente": "brujula",
+        "frase": "Dame el resumen de mi día"
+      }
+    },
+    {
+      "titulo": "Cierre de gastos de octubre",
+      "resumen": "Registra tus gastos de representación del mes hasta el viernes 30/10 a las 18:00.",
+      "fecha": "2026-10-30",
+      "hora": "18:00",
+      "etiqueta": "Cierre de mes",
+      "enlace": "#/solicitudes"
+    },
+    {
+      "titulo": "Mantenimiento de sistemas el sábado 24/10",
+      "resumen": "De 22:00 a 02:00 no estarán disponibles la plataforma de comercio exterior ni el gestor documental.",
+      "fecha": "2026-10-24",
+      "hora": "22:00",
+      "etiqueta": "Tecnología",
+      "enlace": "#/herramientas"
+    }
+  ],
+  "bloques": [
+    {
+      "tipo": "lista",
+      "titulo": "Pídeselo a tus asistentes",
+      "items": [
+        {
+          "titulo": "Brújula: tu día de un vistazo",
+          "resumen": "Resumen del día, tareas, reuniones de hoy y de los próximos 7 días, y clientes por atender.",
+          "cta": {
+            "agente": "brujula",
+            "frase": "Dame el resumen de mi día"
+          }
+        },
+        {
+          "titulo": "Radar: a quién priorizar",
+          "resumen": "Ranking de tu cartera de empresas, alertas y visitas sugeridas para la semana o el mes.",
+          "cta": {
+            "agente": "radar",
+            "frase": "Dame el ranking de mi cartera por prioridad"
+          }
+        },
+        {
+          "titulo": "Atlas: prepara tu próxima visita",
+          "resumen": "Perfil, indicadores, oportunidades, estrategia, guion y reporte en PDF.",
+          "cta": {
+            "agente": "atlas",
+            "frase": "Prepárame la visita a Pesquera Pacífico Azul"
+          }
+        },
+        {
+          "titulo": "Sonar: registra la visita con tu minuta",
+          "resumen": "Escríbela o díctala: reunión, resumen, tareas, oportunidades, correo de seguimiento y Plan de Cuenta en PDF.",
+          "cta": {
+            "agente": "sonar",
+            "frase": "Quiero registrar la visita a Distribuidora Central"
+          }
+        },
+        {
+          "titulo": "Ancla: arma el expediente de crédito",
+          "resumen": "Documentos, prellenado de bloques, validación de campos y exportación a Excel.",
+          "cta": {
+            "agente": "ancla",
+            "frase": "¿Qué documentos tiene la solicitud AF-00000009 de Corporación Minera Los Andes?"
+          }
+        }
+      ]
+    }
+  ]
+}

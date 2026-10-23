@@ -1,0 +1,132 @@
+{
+  "id": "directorio",
+  "titulo": "Directorio",
+  "intro": "Especialistas por producto y contactos de las áreas de soporte de Banca Empresas. Coordina con ellos antes de las visitas que requieran su participación.",
+  "bloques": [
+    {
+      "tipo": "tarjetas",
+      "titulo": "Especialistas por producto",
+      "items": [
+        {
+          "titulo": "Claudia Villanueva Rojas",
+          "cargo": "Especialista de Cash Management",
+          "area": "Cash Management",
+          "resumen": "Pago de haberes, pagos a proveedores, recaudación y banca por internet de empresas. Punto de contacto de la campaña Nóminas 2026.",
+          "anexo": "4512",
+          "correo": "claudia.villanueva@intranet.banca.test",
+          "cta": {
+            "agente": "atlas",
+            "frase": "Prepárame la visita a Distribuidora Central"
+          }
+        },
+        {
+          "titulo": "Martín Huamán Quispe",
+          "cargo": "Especialista de Comercio Exterior",
+          "area": "Comercio Exterior",
+          "resumen": "Cartas de crédito, cobranzas documentarias, financiamiento de importaciones y exportaciones, y líneas de comercio exterior.",
+          "anexo": "4530",
+          "correo": "martin.huaman@intranet.banca.test",
+          "cta": {
+            "agente": "atlas",
+            "frase": "Prepárame la visita a Pesquera Pacífico Azul"
+          }
+        },
+        {
+          "titulo": "Andrea Salazar Pinto",
+          "cargo": "Especialista de Leasing",
+          "area": "Leasing y Financiamiento de Activos",
+          "resumen": "Leasing de maquinaria, equipos, vehículos e inmuebles, y leaseback.",
+          "anexo": "4547",
+          "correo": "andrea.salazar@intranet.banca.test"
+        },
+        {
+          "titulo": "Diego Ferreyra Lozano",
+          "cargo": "Ejecutivo de la Mesa de Clientes",
+          "area": "Mercados y Tesorería",
+          "resumen": "Compra y venta de moneda extranjera, forwards de tipo de cambio, depósitos a plazo y coberturas para empresas.",
+          "anexo": "4610",
+          "correo": "diego.ferreyra@intranet.banca.test"
+        },
+        {
+          "titulo": "Gabriela Montoya Cárdenas",
+          "cargo": "Asociada de Banca de Inversión",
+          "area": "Banca de Inversión",
+          "resumen": "Financiamientos estructurados y sindicados, emisiones en el mercado de capitales y asesoría financiera.",
+          "anexo": "4655",
+          "correo": "gabriela.montoya@intranet.banca.test"
+        },
+        {
+          "titulo": "Javier Ccori Mendoza",
+          "cargo": "Analista de Riesgos Banca Empresas",
+          "area": "Riesgos Banca Empresas",
+          "resumen": "Evaluación de propuestas de crédito, consultas del expediente y seguimiento de cartera.",
+          "anexo": "4721",
+          "correo": "javier.ccori@intranet.banca.test",
+          "cta": {
+            "agente": "ancla",
+            "frase": "¿Qué documentos tiene la solicitud AF-00000009 de Corporación Minera Los Andes?"
+          }
+        },
+        {
+          "titulo": "Rosa Medina Salas",
+          "cargo": "Abogada de Banca Empresas",
+          "area": "Legal",
+          "resumen": "Revisión de poderes, contratos de crédito y de servicios, y constitución de garantías.",
+          "anexo": "4802",
+          "correo": "rosa.medina@intranet.banca.test"
+        },
+        {
+          "titulo": "Ricardo Ballón Ugarte",
+          "cargo": "Especialista de Operaciones",
+          "area": "Operaciones Banca Empresas",
+          "resumen": "Implementación de servicios, emisión de cartas fianza y atención operativa a clientes empresa.",
+          "anexo": "4833",
+          "correo": "ricardo.ballon@intranet.banca.test"
+        },
+        {
+          "titulo": "Mónica Chávez Delgado",
+          "cargo": "Especialista de Cumplimiento",
+          "area": "Cumplimiento Normativo",
+          "resumen": "Actualización de KYB, beneficiario final y debida diligencia reforzada de personas jurídicas.",
+          "anexo": "4850",
+          "correo": "monica.chavez@intranet.banca.test",
+          "cta": {
+            "agente": "radar",
+            "frase": "¿Qué empresas de mi cartera tienen el KYB vencido?"
+          }
+        },
+        {
+          "titulo": "Patricia Zevallos Ríos",
+          "cargo": "Especialista de Prevención de Fraude",
+          "area": "Prevención de Fraude",
+          "resumen": "Operaciones no reconocidas, suplantación y alertas de fraude en canales de empresas.",
+          "anexo": "4871",
+          "correo": "patricia.zevallos@intranet.banca.test"
+        }
+      ]
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Banca Empresas",
+      "columnas": ["Nombre", "Cargo", "Anexo", "Correo"],
+      "filas": [
+        ["Alberto Indacochea", "Gerente Comercial", "4401", "alberto.indacochea@intranet.banca.test"],
+        ["Héctor Bustamante", "Gerente de Relación, Banca Empresas", "4415", "hector.bustamante@intranet.banca.test"],
+        ["Paola Guzmán Torres", "Gerente de Relación, Banca Empresas", "4416", "paola.guzman@intranet.banca.test"],
+        ["Renzo Cáceres Meza", "Gerente de Relación, Banca Empresas", "4417", "renzo.caceres@intranet.banca.test"]
+      ]
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Contactos de soporte",
+      "columnas": ["Servicio", "Horario", "Anexo", "Correo"],
+      "filas": [
+        ["Mesa de Ayuda de Tecnología", "Lunes a domingo, 24 horas", "1000", "mesadeayuda@intranet.banca.test"],
+        ["Reporte de incidentes de seguridad", "Lunes a domingo, 24 horas", "1000 opción 3", "seguridad.informacion@intranet.banca.test"],
+        ["Gestión Humana — Business Partner Banca Empresas", "Lunes a viernes, 09:00 a 18:00", "2240", "gestion.humana@intranet.banca.test"],
+        ["Seguridad y servicios generales de la sede", "Lunes a viernes, 07:00 a 20:00", "2100", "servicios.generales@intranet.banca.test"],
+        ["Oficial de Datos Personales", "Lunes a viernes, 09:00 a 18:00", "2310", "datos.personales@intranet.banca.test"]
+      ]
+    }
+  ]
+}

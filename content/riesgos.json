@@ -1,0 +1,185 @@
+{
+  "id": "riesgos",
+  "titulo": "Riesgos y comités",
+  "intro": "Calendario de comités de crédito, estado de tus propuestas en Riesgos y lo que debe tener el expediente de crédito antes de presentarlo.",
+  "bloques": [
+    {
+      "tipo": "destacado",
+      "titulo": "Tu propuesta en revisión",
+      "items": [
+        {
+          "titulo": "AF-00000009 · Corporación Minera Los Andes S.A.A.",
+          "resumen": "Préstamo de mediano plazo por US$ 9 MM para la ampliación de la planta concentradora. En revisión en Riesgos, con consultas pendientes del analista.",
+          "detalle": "Absuelve las consultas del analista y completa el expediente para que la propuesta pueda pasar al comité que corresponda según su nivel de atribución.",
+          "estado": "En revisión",
+          "etiqueta": "Préstamo de mediano plazo",
+          "area": "Riesgos Banca Empresas",
+          "cta": {
+            "agente": "ancla",
+            "frase": "¿Qué documentos tiene la solicitud AF-00000009 de Corporación Minera Los Andes?"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Estado de mis propuestas en Riesgos",
+      "columnas": ["Solicitud", "Empresa", "Producto", "Monto", "Destino", "Estado", "Siguiente paso"],
+      "filas": [
+        ["AF-00000009", "Corporación Minera Los Andes S.A.A.", "Préstamo de mediano plazo", "US$ 9 MM", "Ampliación de la planta concentradora", "En revisión", "Absolver las consultas del analista de Riesgos"]
+      ]
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Acciones sobre el expediente",
+      "items": [
+        {
+          "titulo": "Revisa los documentos del expediente",
+          "resumen": "Confirma qué documentos ya están cargados y cuáles faltan para responder al analista.",
+          "cta": {
+            "agente": "ancla",
+            "frase": "¿Qué documentos tiene la solicitud AF-00000009 de Corporación Minera Los Andes?"
+          }
+        },
+        {
+          "titulo": "Prellena el bloque de Datos Básicos",
+          "resumen": "Completa los datos de identificación, grupo económico y la operación solicitada a partir de la información disponible.",
+          "cta": {
+            "agente": "ancla",
+            "frase": "Prellena el bloque de Datos Básicos de la solicitud de Corporación Minera Los Andes"
+          }
+        },
+        {
+          "titulo": "Prellena el bloque de Riesgo Financiero",
+          "resumen": "Incorpora los indicadores financieros de la empresa y deja listo el bloque para la revisión del analista.",
+          "cta": {
+            "agente": "ancla",
+            "frase": "Prellena el bloque de Riesgo Financiero de la solicitud de Corporación Minera Los Andes"
+          }
+        },
+        {
+          "titulo": "Valida los campos y exporta el expediente",
+          "resumen": "Detecta campos incompletos o inconsistentes y exporta el expediente a Excel para adjuntarlo a la respuesta.",
+          "cta": {
+            "agente": "ancla",
+            "frase": "Valida los campos del expediente de la solicitud AF-00000009 y expórtalo a Excel"
+          }
+        },
+        {
+          "titulo": "Prepara la visita de seguimiento al cliente",
+          "resumen": "Si las consultas requieren información adicional del cliente, prepara una visita con los puntos a resolver.",
+          "cta": {
+            "agente": "atlas",
+            "frase": "Prepárame una visita de seguimiento a Corporación Minera Los Andes"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "calendario",
+      "titulo": "Calendario de comités de crédito",
+      "items": [
+        {
+          "titulo": "Comité de Créditos Banca Empresas",
+          "resumen": "Corte de expedientes: miércoles 21/10 a las 12:00.",
+          "fecha": "2026-10-22",
+          "hora": "16:00",
+          "etiqueta": "Comité de Créditos"
+        },
+        {
+          "titulo": "Comité de Créditos Banca Empresas",
+          "resumen": "Corte de expedientes: lunes 26/10 a las 12:00.",
+          "fecha": "2026-10-27",
+          "hora": "16:00",
+          "etiqueta": "Comité de Créditos"
+        },
+        {
+          "titulo": "Comité de Créditos Banca Empresas",
+          "resumen": "Corte de expedientes: miércoles 28/10 a las 12:00.",
+          "fecha": "2026-10-29",
+          "hora": "16:00",
+          "etiqueta": "Comité de Créditos"
+        },
+        {
+          "titulo": "Comité de Créditos Banca Empresas",
+          "resumen": "Corte de expedientes: lunes 2/11 a las 12:00.",
+          "fecha": "2026-11-03",
+          "hora": "16:00",
+          "etiqueta": "Comité de Créditos"
+        },
+        {
+          "titulo": "Comité de Créditos Banca Empresas",
+          "resumen": "Corte de expedientes: miércoles 4/11 a las 12:00.",
+          "fecha": "2026-11-05",
+          "hora": "16:00",
+          "etiqueta": "Comité de Créditos"
+        },
+        {
+          "titulo": "Comité de Riesgos",
+          "resumen": "Sesión mensual: seguimiento de la cartera, concentraciones y alertas tempranas.",
+          "fecha": "2026-11-18",
+          "hora": "09:00",
+          "etiqueta": "Comité de Riesgos"
+        }
+      ]
+    },
+    {
+      "tipo": "tarjetas",
+      "titulo": "Requisitos del expediente de crédito",
+      "items": [
+        {
+          "titulo": "Bloque de Datos Básicos",
+          "resumen": "Identificación de la empresa y del grupo económico, representantes, beneficiario final, operación solicitada, destino y garantías propuestas.",
+          "etiqueta": "Bloque",
+          "cta": {
+            "agente": "ancla",
+            "frase": "Prellena el bloque de Datos Básicos de la solicitud de Corporación Minera Los Andes"
+          }
+        },
+        {
+          "titulo": "Bloque de Riesgo Financiero",
+          "resumen": "Estados financieros auditados de los dos últimos ejercicios, estados intermedios, indicadores de liquidez, endeudamiento y rentabilidad, y flujo de caja proyectado.",
+          "etiqueta": "Bloque",
+          "cta": {
+            "agente": "ancla",
+            "frase": "Prellena el bloque de Riesgo Financiero de la solicitud de Corporación Minera Los Andes"
+          }
+        },
+        {
+          "titulo": "Documentación de soporte",
+          "resumen": "Ficha RUC, vigencia de poderes, declaración de beneficiario final, sustento del proyecto o del destino de los fondos y documentos de las garantías.",
+          "etiqueta": "Documentos"
+        },
+        {
+          "titulo": "Antes de enviarlo a Riesgos",
+          "resumen": "Valida que los campos estén completos y sean consistentes entre bloques. Los expedientes incompletos se devuelven y pierden su turno de comité.",
+          "etiqueta": "Validación"
+        }
+      ]
+    },
+    {
+      "tipo": "avisos",
+      "titulo": "Alertas de tu cartera",
+      "items": [
+        {
+          "titulo": "Renovaciones de líneas próximas",
+          "resumen": "Anticipa las renovaciones para no presentarlas a comité al límite del vencimiento.",
+          "etiqueta": "Seguimiento",
+          "cta": {
+            "agente": "radar",
+            "frase": "¿Qué empresas de mi cartera tienen renovaciones próximas?"
+          }
+        },
+        {
+          "titulo": "Clasificación de riesgo distinta de Normal",
+          "resumen": "Las empresas con clasificación SBS distinta de Normal requieren un plan de seguimiento antes de nuevas operaciones.",
+          "etiqueta": "Seguimiento",
+          "cta": {
+            "agente": "radar",
+            "frase": "¿Qué empresas de mi cartera tienen una clasificación SBS distinta de Normal?"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": "solicitudes",
+  "titulo": "Solicitudes internas",
+  "intro": "Haz seguimiento a tus solicitudes de soporte y registra nuevas: tecnología, gastos, salas, constancias, Legal y Operaciones.",
+  "bloques": [
+    {
+      "tipo": "kpis",
+      "titulo": "Mis solicitudes",
+      "items": [
+        {
+          "titulo": "Abiertas",
+          "valor": "5",
+          "etiqueta": "En atención o por registrar"
+        },
+        {
+          "titulo": "Resueltas este mes",
+          "valor": "7"
+        },
+        {
+          "titulo": "Por registrar",
+          "valor": "1",
+          "etiqueta": "Gasto de representación del 23/10"
+        }
+      ]
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Mesa de Ayuda de Tecnología",
+      "columnas": [
+        "Ticket",
+        "Asunto",
+        "Fecha",
+        "Prioridad",
+        "Estado"
+      ],
+      "filas": [
+        [
+          "TI-2026-18452",
+          "Renovación del certificado de firma digital",
+          "21/10/2026",
+          "Alta",
+          "En atención"
+        ],
+        [
+          "TI-2026-18397",
+          "Cambio de batería de la laptop",
+          "20/10/2026",
+          "Media",
+          "Programado para el 26/10"
+        ],
+        [
+          "TI-2026-18210",
+          "Acceso a la carpeta compartida de Banca Empresas",
+          "15/10/2026",
+          "Media",
+          "Resuelto"
+        ],
+        [
+          "TI-2026-18044",
+          "Configuración de la VPN en el celular corporativo",
+          "09/10/2026",
+          "Baja",
+          "Resuelto"
+        ]
+      ]
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Reembolso de gastos de representación",
+      "items": [
+        {
+          "titulo": "Almuerzo de relacionamiento con Textiles Andinos (Miraflores)",
+          "resumen": "Viernes 23/10, 12:30. Regístralo después del almuerzo con el comprobante electrónico; tienes hasta el cierre de gastos del 30/10.",
+          "fecha": "2026-10-23",
+          "hora": "12:30",
+          "estado": "Pendiente de registro",
+          "etiqueta": "Gasto de representación",
+          "cta": {
+            "agente": "sonar",
+            "frase": "Quiero registrar el almuerzo de relacionamiento con Textiles Andinos"
+          }
+        },
+        {
+          "titulo": "Desayuno de trabajo con cliente de la cartera",
+          "resumen": "Reembolso aprobado por tu jefe; se abonará con la planilla de octubre.",
+          "fecha": "2026-10-08",
+          "estado": "Aprobado",
+          "etiqueta": "Gasto de representación"
+        }
+      ]
+    },
+    {
+      "tipo": "formulario",
+      "titulo": "Registrar gasto de representación",
+      "campos": [
+        {
+          "etiqueta": "Fecha del gasto",
+          "tipo": "fecha"
+        },
+        {
+          "etiqueta": "Empresa atendida",
+          "tipo": "texto"
+        },
+        {
+          "etiqueta": "Tipo de atención",
+          "tipo": "seleccion",
+          "opciones": [
+            "Almuerzo de relacionamiento",
+            "Desayuno de trabajo",
+            "Atención en evento",
+            "Otro"
+          ]
+        },
+        {
+          "etiqueta": "Asistentes",
+          "tipo": "texto"
+        },
+        {
+          "etiqueta": "Monto del comprobante (S/)",
+          "tipo": "monto"
+        },
+        {
+          "etiqueta": "Número de comprobante electrónico",
+          "tipo": "texto"
+        }
+      ],
+      "accion": {
+        "etiqueta": "Enviar a aprobación",
+        "confirmacion": "Registramos tu gasto y lo enviamos a tu jefe para su aprobación. El abono se realiza con la planilla del mes."
+      }
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Reserva de salas",
+      "columnas": [
+        "Sala",
+        "Sede",
+        "Fecha",
+        "Horario",
+        "Motivo",
+        "Estado"
+      ],
+      "filas": [
+        [
+          "Sala de directorio, piso 10",
+          "Oficina Principal, San Isidro",
+          "23/10/2026",
+          "08:30 a 10:00",
+          "Comité semanal de Banca Empresas",
+          "Confirmada"
+        ],
+        [
+          "Sala 6B, piso 6",
+          "Oficina Principal, San Isidro",
+          "27/10/2026",
+          "11:00 a 12:00",
+          "Reunión de equipo",
+          "Confirmada"
+        ],
+        [
+          "Sala de clientes 2, piso 3",
+          "Oficina Principal, San Isidro",
+          "29/10/2026",
+          "10:00 a 11:30",
+          "Reunión con cliente",
+          "Pendiente de confirmación"
+        ]
+      ]
+    },
+    {
+      "tipo": "tarjetas",
+      "titulo": "Constancias, Legal y Operaciones",
+      "items": [
+        {
+          "titulo": "Constancia de trabajo",
+          "resumen": "Con cargo, fecha de ingreso y tipo de contrato. Se genera en el momento.",
+          "estado": "Disponible",
+          "etiqueta": "Constancias",
+          "area": "Gestión Humana"
+        },
+        {
+          "titulo": "Carta de presentación para trámite consular",
+          "resumen": "Solicitada el 19/10. Gestión Humana la emite con firma digital en tres días hábiles.",
+          "fecha": "2026-10-19",
+          "estado": "En trámite",
+          "etiqueta": "Constancias",
+          "area": "Gestión Humana"
+        },
+        {
+          "titulo": "Revisión de poderes de representantes legales",
+          "resumen": "Ticket LEG-2026-0412. Legal valida la vigencia y las facultades de los firmantes antes de la firma de contratos. Respuesta estimada: 27/10.",
+          "fecha": "2026-10-20",
+          "estado": "En revisión",
+          "etiqueta": "Legal",
+          "area": "Legal Banca Empresas"
+        },
+        {
+          "titulo": "Emisión de carta fianza de fiel cumplimiento",
+          "resumen": "Ticket OPE-2026-3381. Operaciones emite la carta fianza en un día hábil desde que recibe la aprobación y el formato del beneficiario.",
+          "fecha": "2026-10-21",
+          "estado": "En emisión",
+          "etiqueta": "Operaciones",
+          "area": "Operaciones Banca Empresas"
+        },
+        {
+          "titulo": "Validación del expediente antes de enviarlo a Riesgos",
+          "resumen": "Revisa que los campos del expediente estén completos y consistentes antes de presentarlo a comité.",
+          "etiqueta": "Riesgos",
+          "area": "Riesgos Banca Empresas",
+          "enlace": "#/riesgos",
+          "cta": {
+            "agente": "ancla",
+            "frase": "Valida los campos del expediente de la solicitud AF-00000009 de Corporación Minera Los Andes"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "avisos",
+      "titulo": "Para tener en cuenta",
+      "items": [
+        {
+          "titulo": "Sala confirmada para el comité semanal",
+          "resumen": "Sala de directorio del piso 10, viernes 23/10 a las 08:30.",
+          "fecha": "2026-10-23",
+          "hora": "08:30",
+          "etiqueta": "Salas",
+          "cta": {
+            "agente": "brujula",
+            "frase": "¿Qué reuniones tengo en los próximos 7 días?"
+          }
+        },
+        {
+          "titulo": "Mantenimiento programado de sistemas",
+          "resumen": "Sábado 24/10 de 22:00 a 02:00: la plataforma de comercio exterior y el gestor documental no estarán disponibles.",
+          "fecha": "2026-10-24",
+          "hora": "22:00",
+          "etiqueta": "Tecnología"
+        }
+      ]
+    }
+  ]
+}

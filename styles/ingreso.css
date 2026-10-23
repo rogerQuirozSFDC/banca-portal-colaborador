@@ -1,0 +1,210 @@
+/* Pantalla de ingreso. */
+
+body.ingreso {
+  min-height: 100vh;
+  background: var(--c-fondo);
+}
+
+.ingreso__marco {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(380px, 1fr);
+  min-height: 100vh;
+}
+
+.ingreso__panel--marca {
+  position: relative;
+  display: grid;
+  align-content: center;
+  padding: 64px 72px;
+  overflow: hidden;
+  background: var(--g-marca);
+  color: #fff;
+}
+
+.ingreso__panel--marca::before,
+.ingreso__panel--marca::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.07);
+  pointer-events: none;
+}
+
+.ingreso__panel--marca::before {
+  width: 520px;
+  height: 520px;
+  right: -180px;
+  top: -160px;
+}
+
+.ingreso__panel--marca::after {
+  width: 360px;
+  height: 360px;
+  left: -140px;
+  bottom: -160px;
+}
+
+.ingreso__claim {
+  position: relative;
+  display: grid;
+  gap: 18px;
+  max-width: 520px;
+}
+
+.ingreso__kicker {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.ingreso__frase {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.ingreso__puntos {
+  display: grid;
+  gap: 10px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 15px;
+}
+
+.ingreso__puntos li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 0.95;
+}
+
+.ingreso__puntos li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  flex: none;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.8;
+}
+
+.ingreso__panel--acceso {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 18px;
+  padding: 48px 32px;
+}
+
+.ingreso__tarjeta {
+  display: grid;
+  gap: 14px;
+  width: min(420px, 100%);
+  padding: 36px 32px;
+  background: var(--c-superficie);
+  border: 1px solid var(--c-borde);
+  border-radius: 16px;
+  box-shadow: var(--sombra-2);
+}
+
+.ingreso__logo-zona {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.ingreso__logo {
+  max-height: 44px;
+  max-width: 180px;
+  object-fit: contain;
+}
+
+.ingreso__marca {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--c-primario);
+}
+
+.ingreso__titulo {
+  font-size: 24px;
+  font-weight: 750;
+  color: var(--c-texto);
+}
+
+.ingreso__texto {
+  color: var(--c-texto-2);
+}
+
+.ingreso__mensaje {
+  padding: 10px 12px;
+  border-radius: var(--radio-sm);
+  background: var(--c-primario-suave);
+  color: var(--c-primario);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ingreso__boton {
+  width: 100%;
+  margin-top: 6px;
+}
+
+.ingreso__boton .spinner {
+  display: none;
+}
+
+.ingreso__boton.btn--cargando .spinner {
+  display: inline-block;
+}
+
+.ingreso__nota {
+  padding: 8px 12px;
+  border-radius: var(--radio-sm);
+  background: var(--c-alerta-fondo);
+  color: var(--c-alerta);
+  font-size: 13px;
+}
+
+.ingreso__ayuda {
+  font-size: 12px;
+  color: var(--c-texto-3);
+}
+
+.ingreso__pie {
+  font-size: 12px;
+  color: var(--c-texto-3);
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .ingreso__marco {
+    grid-template-columns: 1fr;
+  }
+
+  .ingreso__panel--marca {
+    padding: 36px 28px;
+  }
+
+  .ingreso__frase {
+    font-size: 24px;
+  }
+}
+
+.ingreso__logo--neutro {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+}
+
+.ingreso__detalle {
+  font-size: 12px;
+  color: var(--c-texto-3);
+  overflow-wrap: anywhere;
+}
+
+.ingreso__maqueta {
+  font-size: 13px;
+}

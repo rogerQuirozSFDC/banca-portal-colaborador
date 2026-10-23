@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://trailsignup-e412e138045298.my.salesforce.com; frame-src https://trailsignup-e412e138045298.my.salesforce.com https://trailsignup-e412e138045298.lightning.force.com; base-uri 'self'; form-action https://trailsignup-e412e138045298.my.salesforce.com; object-src 'none'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Portal del Colaborador</title>
+  <link rel="icon" href="icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles/base.css?v=20b8babb67">
+  <link rel="stylesheet" href="styles/layout.css?v=5c654dc5dc">
+  <link rel="stylesheet" href="styles/componentes.css?v=d1085d31c4">
+  <link rel="stylesheet" href="styles/asistentes.css?v=820eee5486">
+  <link rel="stylesheet" href="styles/ingreso.css?v=8c2967c67c">
+  <script type="module" src="app.js?v=f17476b385"></script>
+</head>
+<body data-pagina="arranque" class="arrancando">
+  <div id="arranque" class="arranque" role="status">
+    <span class="spinner spinner--grande" aria-hidden="true"></span>
+    <span>Abriendo el Portal del Colaborador…</span>
+  </div>
+
+  <!-- Pantalla de ingreso: genérica, sin marca (la marca llega de la org después del login). -->
+  <div id="pantalla-ingreso" hidden>
+    <main class="ingreso__marco" aria-labelledby="ingreso-titulo">
+      <section class="ingreso__panel ingreso__panel--marca" aria-label="Qué encontrarás en el portal">
+        <div class="ingreso__claim">
+          <p class="ingreso__kicker">Intranet corporativa</p>
+          <p class="ingreso__frase">Tu día, las novedades de la organización y tus asistentes, en un solo lugar.</p>
+          <ul class="ingreso__puntos">
+            <li>Comunicados, normativa y formación</li>
+            <li>Trámites internos y Mi RR.HH.</li>
+            <li>Asistentes para tu cartera, tus visitas y tus expedientes</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="ingreso__panel ingreso__panel--acceso">
+        <div class="ingreso__tarjeta">
+          <div class="ingreso__logo-zona">
+            <img class="ingreso__logo ingreso__logo--neutro" src="icono.svg" alt="" width="44" height="44">
+          </div>
+          <h1 id="ingreso-titulo" class="ingreso__titulo">Portal del Colaborador</h1>
+          <p class="ingreso__texto">Ingresa con tu usuario corporativo para ver tu día, los comunicados y tus asistentes.</p>
+          <p id="ingreso-mensaje" class="ingreso__mensaje" role="status" hidden></p>
+          <button type="button" id="ingreso-boton" class="btn btn--primario btn--grande ingreso__boton">
+            <span class="spinner spinner--claro" aria-hidden="true"></span>
+            <span class="btn__texto">Ingresar con mi usuario corporativo</span>
+          </button>
+          <p id="ingreso-nota" class="ingreso__nota" hidden></p>
+          <p id="ingreso-detalle" class="ingreso__detalle" hidden></p>
+          <p class="ingreso__ayuda">Acceso exclusivo para colaboradores. Tu identidad se valida con el inicio de sesión corporativo; el portal no guarda tu contraseña.</p>
+          <p class="ingreso__maqueta"><a id="ingreso-maqueta" href="?demo=1">Explorar la maqueta con datos de ejemplo</a></p>
+        </div>
+        <p class="ingreso__pie">Uso exclusivo de colaboradores.</p>
+      </section>
+    </main>
+  </div>
+
+  <!-- Portal -->
+  <div id="pantalla-portal" hidden>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+    <header class="cabecera" role="banner">
+      <button type="button" id="btn-menu" class="btn-icono cabecera__menu" aria-controls="nav" aria-expanded="false" aria-label="Mostrar secciones">
+        <svg class="icono" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+      <a class="cabecera__marca" href="#/inicio">
+        <img id="marca-logo" class="cabecera__logo cabecera__logo--neutro" src="icono.svg" alt="Inicio del portal" width="30" height="30">
+        <span id="marca-textos" class="cabecera__textos">
+          <span class="cabecera__nombre">Portal del Colaborador<span id="marca-sub" class="cabecera__sub" hidden></span></span>
+        </span>
+      </a>
+      <div id="buscador" class="cabecera__buscador"></div>
+      <div class="cabecera__derecha">
+        <div class="usuario" aria-label="Sesión iniciada">
+          <span id="usuario-avatar" class="avatar avatar--sm" aria-hidden="true"></span>
+          <span class="usuario__textos">
+            <span id="usuario-nombre" class="usuario__nombre">&nbsp;</span>
+            <span id="usuario-cargo" class="usuario__cargo" hidden></span>
+          </span>
+        </div>
+        <button type="button" id="btn-asistentes" class="btn btn--secundario btn--sm cabecera__asistentes" aria-controls="rail" aria-expanded="false">
+          <svg class="icono" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3 1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg>
+          <span>Asistentes</span>
+        </button>
+        <button type="button" id="btn-salir" class="btn btn--fantasma btn--sm">
+          <svg class="icono" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3"/><path d="m10 17-5-5 5-5M5 12h11"/></svg>
+          <span>Salir</span>
+        </button>
+      </div>
+    </header>
+
+    <nav id="nav" class="nav" aria-label="Secciones del portal">
+      <ul id="nav-lista" class="nav__lista" role="list"></ul>
+    </nav>
+
+    <main id="contenido" class="principal" tabindex="-1" aria-busy="true">
+      <div class="estado-carga" role="status"><span class="spinner" aria-hidden="true"></span><span>Abriendo tu portal…</span></div>
+    </main>
+
+    <div id="rail-fondo" class="rail-fondo" hidden></div>
+    <aside id="rail" class="rail" aria-labelledby="rail-titulo"></aside>
+  </div>
+
+  <div id="avisos-globales" class="toasts" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <p class="noscript">Para usar el Portal del Colaborador activa JavaScript en tu navegador.</p>
+  </noscript>
+</body>
+</html>

@@ -1,0 +1,153 @@
+{
+  "id": "mercados",
+  "titulo": "Mercados",
+  "intro": "Tipo de cambio, tasas e indicadores al 22/10/2026. Valores referenciales: no son cotizaciones oficiales ni deben usarse para pactar operaciones.",
+  "bloques": [
+    {
+      "tipo": "kpis",
+      "titulo": "Tipo de cambio del día (valores referenciales)",
+      "items": [
+        {
+          "titulo": "Dólar — compra",
+          "valor": "3.735",
+          "unidad": "S/ por US$",
+          "variacion": "+0.004",
+          "etiqueta": "Referencial"
+        },
+        {
+          "titulo": "Dólar — venta",
+          "valor": "3.768",
+          "unidad": "S/ por US$",
+          "variacion": "+0.003",
+          "etiqueta": "Referencial"
+        },
+        {
+          "titulo": "Interbancario de cierre (anterior)",
+          "valor": "3.751",
+          "unidad": "S/ por US$",
+          "variacion": "+0.002",
+          "etiqueta": "Referencial"
+        },
+        {
+          "titulo": "Euro — venta",
+          "valor": "4.082",
+          "unidad": "S/ por €",
+          "variacion": "-0.011",
+          "etiqueta": "Referencial"
+        }
+      ]
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Tasas de referencia (valores referenciales)",
+      "columnas": ["Indicador", "Valor", "Variación", "Comentario"],
+      "filas": [
+        ["Tasa de referencia de política monetaria (BCRP)", "4.25 %", "Sin cambio", "Próxima decisión: segunda semana de noviembre"],
+        ["Tasa interbancaria en soles", "4.24 %", "-0.01 pp", "Alineada con la tasa de referencia"],
+        ["TAMN (promedio activa en moneda nacional)", "14.62 %", "-0.05 pp", "Promedio del sistema"],
+        ["TAMEX (promedio activa en moneda extranjera)", "10.38 %", "+0.02 pp", "Promedio del sistema"],
+        ["SOFR a 3 meses", "3.88 %", "Sin cambio", "Referencia para financiamientos en dólares"],
+        ["Bono del Tesoro de EE.UU. a 10 años", "4.12 %", "+0.03 pp", "Rendimiento"]
+      ]
+    },
+    {
+      "tipo": "kpis",
+      "titulo": "Indicadores (valores referenciales)",
+      "items": [
+        {
+          "titulo": "Cobre",
+          "valor": "4.92",
+          "unidad": "US$ por libra",
+          "variacion": "+1.1 %",
+          "etiqueta": "Referencial",
+          "cta": {
+            "agente": "ancla",
+            "frase": "Prellena el bloque de Riesgo Financiero de la solicitud de Corporación Minera Los Andes"
+          }
+        },
+        {
+          "titulo": "Harina de pescado",
+          "valor": "1,780",
+          "unidad": "US$ por tonelada",
+          "variacion": "-0.6 %",
+          "etiqueta": "Referencial",
+          "cta": {
+            "agente": "atlas",
+            "frase": "Prepárame la visita a Pesquera Pacífico Azul"
+          }
+        },
+        {
+          "titulo": "Inflación a 12 meses (Lima Metropolitana)",
+          "valor": "2.1",
+          "unidad": "%",
+          "variacion": "-0.1 pp",
+          "etiqueta": "Referencial"
+        },
+        {
+          "titulo": "Petróleo WTI",
+          "valor": "68.40",
+          "unidad": "US$ por barril",
+          "variacion": "-0.8 %",
+          "etiqueta": "Referencial"
+        }
+      ]
+    },
+    {
+      "tipo": "destacado",
+      "titulo": "Comentario de Estudios Económicos",
+      "items": [
+        {
+          "titulo": "Sol estable y tasas sin cambios: buen momento para revisar coberturas con los clientes",
+          "resumen": "El tipo de cambio se mueve en un rango estrecho y no esperamos cambios en la tasa de referencia en lo que resta del año. La volatilidad externa sigue siendo el principal riesgo.",
+          "detalle": "Para clientes importadores con pagos en dólares en los próximos meses, conviene evaluar forwards de compra; para exportadores con estacionalidad, forwards de venta que aseguren el margen de la temporada. En empresas con proyectos de inversión, la estabilidad de tasas favorece estructurar financiamientos de mediano plazo. Este comentario es referencial y no constituye una recomendación de inversión.",
+          "fecha": "2026-10-22",
+          "autor": "Estudios Económicos",
+          "area": "Estudios Económicos",
+          "etiqueta": "Comentario semanal",
+          "cta": {
+            "agente": "radar",
+            "frase": "¿A qué empresas de mi cartera debo visitar esta semana?"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "calendario",
+      "titulo": "Agenda de datos macro (fechas referenciales)",
+      "items": [
+        {
+          "titulo": "Decisión de tasas de la Reserva Federal de EE.UU.",
+          "resumen": "Impacto esperado en el tipo de cambio y en las tasas de financiamiento en dólares.",
+          "fecha": "2026-10-28",
+          "hora": "13:00",
+          "etiqueta": "Internacional"
+        },
+        {
+          "titulo": "Inflación de octubre — Lima Metropolitana",
+          "resumen": "Publicación del índice de precios al consumidor del mes.",
+          "fecha": "2026-11-01",
+          "etiqueta": "Perú"
+        },
+        {
+          "titulo": "Elecciones de medio término en EE.UU.",
+          "resumen": "Posible volatilidad en los mercados internacionales durante la semana.",
+          "fecha": "2026-11-03",
+          "etiqueta": "Internacional"
+        },
+        {
+          "titulo": "Programa monetario de noviembre (BCRP)",
+          "resumen": "Decisión de la tasa de referencia. Fecha estimada.",
+          "fecha": "2026-11-12",
+          "hora": "18:00",
+          "etiqueta": "Perú"
+        },
+        {
+          "titulo": "Producción nacional de septiembre",
+          "resumen": "Avance de la actividad económica por sectores, con foco en minería y pesca. Fecha estimada.",
+          "fecha": "2026-11-16",
+          "etiqueta": "Perú"
+        }
+      ]
+    }
+  ]
+}

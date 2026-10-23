@@ -1,0 +1,188 @@
+{
+  "id": "agenda",
+  "titulo": "Agenda corporativa",
+  "intro": "Comités, capacitaciones, eventos internos, cierres y feriados de las próximas semanas. Tus reuniones con clientes te las da tu asistente.",
+  "bloques": [
+    {
+      "tipo": "destacado",
+      "titulo": "Comité de la semana",
+      "items": [
+        {
+          "titulo": "Comité semanal de Banca Empresas: pipeline y campaña Nóminas 2026",
+          "resumen": "Viernes 23/10, 08:30, Oficina Principal de San Isidro. Revisión del pipeline del cierre de año y avance de la campaña de pago de haberes por equipo.",
+          "detalle": "Lleva identificadas las empresas de tu cartera con mayor potencial para la campaña y las visitas que tienes previstas en las próximas semanas.",
+          "fecha": "2026-10-23",
+          "hora": "08:30",
+          "etiqueta": "Comité",
+          "area": "Banca Empresas",
+          "cta": {
+            "agente": "brujula",
+            "frase": "¿Qué reuniones tengo en los próximos 7 días?"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "calendario",
+      "titulo": "Próximas fechas",
+      "items": [
+        {
+          "titulo": "Comité de Créditos Banca Empresas",
+          "resumen": "Sala de comités, piso 9, Oficina Principal. Corte de expedientes: el día hábil anterior a las 12:00.",
+          "fecha": "2026-10-22",
+          "hora": "16:00",
+          "etiqueta": "Comité",
+          "area": "Riesgos"
+        },
+        {
+          "titulo": "Comité semanal de Banca Empresas",
+          "resumen": "Pipeline y campaña Nóminas 2026. Oficina Principal de San Isidro.",
+          "fecha": "2026-10-23",
+          "hora": "08:30",
+          "etiqueta": "Comité",
+          "area": "Banca Empresas",
+          "cta": {
+            "agente": "brujula",
+            "frase": "¿Qué reuniones tengo en los próximos 7 días?"
+          }
+        },
+        {
+          "titulo": "Comité de Créditos Banca Empresas",
+          "resumen": "Sala de comités, piso 9. Corte de expedientes: lunes 26/10 a las 12:00.",
+          "fecha": "2026-10-27",
+          "hora": "16:00",
+          "etiqueta": "Comité",
+          "area": "Riesgos"
+        },
+        {
+          "titulo": "Capacitación LA/FT: señales de alerta en personas jurídicas",
+          "resumen": "Sesión virtual de 90 minutos con casos de estructuras societarias complejas y beneficiario final. Válida para el curso anual obligatorio.",
+          "fecha": "2026-10-28",
+          "hora": "15:00",
+          "etiqueta": "Capacitación",
+          "area": "Cumplimiento Normativo",
+          "enlace": "#/formacion"
+        },
+        {
+          "titulo": "Comité de Créditos Banca Empresas",
+          "resumen": "Sala de comités, piso 9. Corte de expedientes: miércoles 28/10 a las 12:00.",
+          "fecha": "2026-10-29",
+          "hora": "16:00",
+          "etiqueta": "Comité",
+          "area": "Riesgos"
+        },
+        {
+          "titulo": "Comité semanal de Banca Empresas",
+          "resumen": "Cierre de octubre y proyección de noviembre.",
+          "fecha": "2026-10-30",
+          "hora": "08:30",
+          "etiqueta": "Comité",
+          "area": "Banca Empresas"
+        },
+        {
+          "titulo": "Cierre de mes de octubre",
+          "resumen": "Último día hábil del mes. Corte de registro de gastos de representación a las 18:00.",
+          "fecha": "2026-10-30",
+          "hora": "18:00",
+          "etiqueta": "Cierre de mes",
+          "area": "Contraloría",
+          "enlace": "#/solicitudes"
+        },
+        {
+          "titulo": "Día de Todos los Santos",
+          "resumen": "Feriado nacional (domingo).",
+          "fecha": "2026-11-01",
+          "etiqueta": "Feriado",
+          "area": "Gestión Humana"
+        },
+        {
+          "titulo": "Comité de Créditos Banca Empresas",
+          "resumen": "Sala de comités, piso 9. Corte de expedientes: lunes 2/11 a las 12:00.",
+          "fecha": "2026-11-03",
+          "hora": "16:00",
+          "etiqueta": "Comité",
+          "area": "Riesgos"
+        },
+        {
+          "titulo": "Town hall de Banca Empresas",
+          "resumen": "Resultados del tercer trimestre y prioridades del cierre de año. Auditorio del piso 2 y transmisión en línea.",
+          "fecha": "2026-11-05",
+          "hora": "17:30",
+          "etiqueta": "Evento",
+          "area": "Comunicación Interna",
+          "enlace": "#/comunicados"
+        },
+        {
+          "titulo": "Simulacro de continuidad operativa",
+          "resumen": "Evacuación de la Oficina Principal y activación del sitio alterno de Operaciones, de 10:00 a 11:30.",
+          "fecha": "2026-11-12",
+          "hora": "10:00",
+          "etiqueta": "Continuidad",
+          "area": "Riesgo Operacional"
+        },
+        {
+          "titulo": "Cierre de mes de noviembre",
+          "resumen": "Último día hábil del mes. Corte de registro de gastos de representación a las 18:00.",
+          "fecha": "2026-11-30",
+          "hora": "18:00",
+          "etiqueta": "Cierre de mes",
+          "area": "Contraloría"
+        },
+        {
+          "titulo": "Día de la Inmaculada Concepción",
+          "resumen": "Feriado nacional.",
+          "fecha": "2026-12-08",
+          "etiqueta": "Feriado",
+          "area": "Gestión Humana"
+        },
+        {
+          "titulo": "Batalla de Ayacucho",
+          "resumen": "Feriado nacional.",
+          "fecha": "2026-12-09",
+          "etiqueta": "Feriado",
+          "area": "Gestión Humana"
+        },
+        {
+          "titulo": "Navidad",
+          "resumen": "Feriado nacional.",
+          "fecha": "2026-12-25",
+          "etiqueta": "Feriado",
+          "area": "Gestión Humana"
+        }
+      ]
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Comités y reuniones recurrentes",
+      "columnas": ["Instancia", "Periodicidad", "Hora", "Lugar", "Corte de material"],
+      "filas": [
+        ["Comité semanal de Banca Empresas", "Viernes", "08:30", "Oficina Principal, San Isidro", "Jueves 18:00"],
+        ["Comité de Créditos Banca Empresas", "Martes y jueves", "16:00", "Sala de comités, piso 9", "Día hábil anterior, 12:00"],
+        ["Comité de Riesgos", "Mensual (tercer miércoles)", "09:00", "Sala de directorio, piso 10", "Viernes previo"],
+        ["Revisión de cartera con Cumplimiento", "Mensual (primer martes)", "11:00", "Virtual", "Lunes previo"]
+      ]
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Prepara tu semana",
+      "items": [
+        {
+          "titulo": "Tus reuniones de los próximos días",
+          "resumen": "Pídele a tu asistente el detalle de tus reuniones con clientes de los próximos siete días.",
+          "cta": {
+            "agente": "brujula",
+            "frase": "¿Qué reuniones tengo en los próximos 7 días?"
+          }
+        },
+        {
+          "titulo": "Visitas sugeridas de la semana",
+          "resumen": "Revisa a qué empresas conviene visitar esta semana según su prioridad y agenda las visitas propuestas.",
+          "cta": {
+            "agente": "radar",
+            "frase": "¿A qué empresas de mi cartera debo visitar esta semana?"
+          }
+        }
+      ]
+    }
+  ]
+}
