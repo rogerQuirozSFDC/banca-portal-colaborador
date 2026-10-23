@@ -3,7 +3,7 @@
 .pagina {
   display: grid;
   gap: 28px;
-  max-width: 1280px;
+  max-width: 1720px;
 }
 
 .pagina__cabecera {
@@ -1279,4 +1279,18 @@ a.dato-contacto {
   border: 1px solid var(--c-borde);
   border-radius: var(--radio);
   background: var(--c-superficie-2);
+}
+
+/* Destino elegido en «Adjuntar un documento» */
+.destino-elegido {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0 4px;
+  color: var(--c-texto-2, #3d4459);
+  font-size: 13px;
+}
+
+.destino-elegido strong {
+  color: var(--c-texto);
 }
