@@ -332,13 +332,13 @@ body[data-pagina="portal"] {
   border-left: 1px solid var(--c-borde);
   transform: translateX(100%);
   visibility: hidden;
-  transition: transform 0.25s ease, visibility 0s linear 0.25s;
+  transition: transform 0.25s ease, width 0.2s ease, visibility 0s linear 0.25s;
 }
 
 .rail.rail--abierto {
   transform: none;
   visibility: visible;
-  transition: transform 0.25s ease, visibility 0s;
+  transition: transform 0.25s ease, width 0.2s ease, visibility 0s;
 }
 
 .rail-fondo {
@@ -359,7 +359,7 @@ body[data-pagina="portal"] {
   padding: 12px 18px;
   border: 0;
   border-radius: 999px;
-  background: var(--g-marca);
+  background: var(--c-primario);
   color: #fff;
   font-weight: 650;
   font-size: 14px;
@@ -408,6 +408,37 @@ body[data-pagina="portal"] {
 @media (min-width: 1280px) and (max-width: 1439px) {
   body.rail-abierto {
     --ancho-rail: 360px;
+  }
+}
+
+/* Panel ampliado (botón «Ampliar el panel» del rail): más ancho para tablas y respuestas largas. En
+   escritorio la navegación queda solo con íconos para que el contenido no pierda columnas. */
+body.rail-abierto.rail-amplio {
+  --ancho-rail: clamp(560px, 46vw, 880px);
+}
+
+@media (min-width: 1280px) {
+  body.rail-abierto.rail-amplio {
+    --ancho-nav: 68px;
+  }
+
+  body.rail-abierto.rail-amplio .nav {
+    padding: 16px 10px 24px;
+  }
+
+  body.rail-abierto.rail-amplio .nav__enlace {
+    justify-content: center;
+    gap: 0;
+    padding: 10px;
+  }
+
+  body.rail-abierto.rail-amplio .nav__texto {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
   }
 }
 

@@ -2,18 +2,18 @@
 <html lang="es-PE">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://trailsignup-e412e138045298.my.salesforce.com; frame-src https://trailsignup-e412e138045298.my.salesforce.com https://trailsignup-e412e138045298.lightning.force.com; base-uri 'self'; form-action https://trailsignup-e412e138045298.my.salesforce.com; object-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' https://trailsignup-e412e138045298.my.salesforce.com https://api.salesforce.com; frame-src 'none'; base-uri 'self'; form-action https://trailsignup-e412e138045298.my.salesforce.com; object-src 'none'">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="robots" content="noindex,nofollow">
   <title>Portal del Colaborador</title>
   <link rel="icon" href="icono.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles/base.css?v=20b8babb67">
-  <link rel="stylesheet" href="styles/layout.css?v=5c654dc5dc">
+  <link rel="stylesheet" href="styles/layout.css?v=783fa2a4ab">
   <link rel="stylesheet" href="styles/componentes.css?v=d332ab41cb">
-  <link rel="stylesheet" href="styles/asistentes.css?v=820eee5486">
+  <link rel="stylesheet" href="styles/asistentes.css?v=f1d34d3eb1">
   <link rel="stylesheet" href="styles/ingreso.css?v=8c2967c67c">
-  <script type="module" src="app.js?v=e404effc9f"></script>
+  <script type="module" src="app.js?v=1e258b2fe9"></script>
 </head>
 <body data-pagina="arranque" class="arrancando">
   <div id="arranque" class="arranque" role="status">
@@ -64,7 +64,7 @@
 
     <header class="cabecera" role="banner">
       <button type="button" id="btn-menu" class="btn-icono cabecera__menu" aria-controls="nav" aria-expanded="false" aria-label="Mostrar secciones">
-        <svg class="icono" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        <span class="icono-ranura" data-icono="menu" data-tamano="20" aria-hidden="true"></span>
       </button>
       <a class="cabecera__marca" href="#/inicio">
         <img id="marca-logo" class="cabecera__logo cabecera__logo--neutro" src="icono.svg" alt="Inicio del portal" width="30" height="30">
@@ -82,11 +82,11 @@
           </span>
         </div>
         <button type="button" id="btn-asistentes" class="btn btn--secundario btn--sm cabecera__asistentes" aria-controls="rail" aria-expanded="false">
-          <svg class="icono" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3 1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg>
+          <span class="icono-ranura" data-icono="conversacion" data-tamano="16" aria-hidden="true"></span>
           <span>Asistentes</span>
         </button>
         <button type="button" id="btn-salir" class="btn btn--fantasma btn--sm">
-          <svg class="icono" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3"/><path d="m10 17-5-5 5-5M5 12h11"/></svg>
+          <span class="icono-ranura" data-icono="salir" data-tamano="16" aria-hidden="true"></span>
           <span>Salir</span>
         </button>
       </div>
