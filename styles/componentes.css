@@ -3,7 +3,8 @@
 .pagina {
   display: grid;
   gap: 28px;
-  max-width: 1720px;
+  max-width: 1600px;
+  margin-inline: auto; /* en pantallas anchas el contenido queda centrado, no pegado a la navegación */
 }
 
 .pagina__cabecera {
@@ -811,8 +812,8 @@ a.dato-contacto {
 
 .hero {
   display: grid;
-  gap: 8px;
-  padding: 26px 30px;
+  gap: 4px;
+  padding: 18px 26px;
   border-radius: var(--radio-lg);
   background: var(--g-marca);
   color: #fff;
@@ -824,10 +825,10 @@ a.dato-contacto {
 .hero::after {
   content: "";
   position: absolute;
-  right: -60px;
-  top: -80px;
-  width: 280px;
-  height: 280px;
+  right: -40px;
+  top: -110px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.07);
   pointer-events: none;
@@ -840,7 +841,7 @@ a.dato-contacto {
 }
 
 .hero__titulo {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 750;
   color: #fff;
 }
@@ -856,7 +857,7 @@ a.dato-contacto {
 
 .hero__texto {
   max-width: 72ch;
-  font-size: 15px;
+  font-size: 14px;
   opacity: 0.92;
 }
 
@@ -876,6 +877,10 @@ a.dato-contacto {
 @container principal (min-width: 980px) {
   .inicio__rejilla {
     grid-template-columns: minmax(0, 1fr) minmax(280px, 340px);
+  }
+
+  .inicio .accesos {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -912,7 +917,115 @@ a.dato-contacto {
 }
 
 .destacados--inicio {
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+}
+
+.destacados--inicio .destacado__resumen {
+  -webkit-line-clamp: 2;
+}
+
+/* Costado de la portada: indicadores y cursos como listas compactas en una sola tarjeta. */
+
+.lateral-bloque {
+  gap: 10px;
+}
+
+.lateral-bloque .bloque__titulo {
+  font-size: 16px;
+}
+
+.lista-compacta {
+  display: grid;
+  gap: 8px;
+  padding: 6px 16px 10px;
+}
+
+.lista-compacta__nota {
+  font-size: 11.5px;
+  color: var(--c-texto-3);
+}
+
+.indicadores,
+.cursos {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.indicador {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas: "titulo valor" "titulo variacion";
+  column-gap: 12px;
+  align-items: baseline;
+  padding: 9px 0;
+}
+
+.indicador + .indicador,
+.curso + .curso {
+  border-top: 1px solid var(--c-borde);
+}
+
+.indicador__titulo {
+  grid-area: titulo;
+  align-self: center;
+  font-size: 13px;
+  color: var(--c-texto-2);
+}
+
+.indicador__valor {
+  grid-area: valor;
+  justify-self: end;
+  font-size: 15px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.indicador__valor .unidad {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--c-texto-3);
+}
+
+.indicador__variacion {
+  grid-area: variacion;
+  justify-self: end;
+  font-size: 12px;
+}
+
+.curso {
+  display: grid;
+  gap: 4px;
+  padding: 10px 0;
+}
+
+.curso__titulo {
+  font-size: 13.5px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.curso__detalle {
+  font-size: 12px;
+  color: var(--c-texto-3);
+}
+
+.curso__barra {
+  display: block;
+  height: 4px;
+  margin-top: 2px;
+  border-radius: 999px;
+  background: var(--c-superficie-2);
+  overflow: hidden;
+}
+
+.curso__relleno {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--c-primario);
 }
 
 /* accesos */
@@ -932,7 +1045,7 @@ a.dato-contacto {
   gap: 12px;
   width: 100%;
   height: 100%;
-  padding: 14px 16px;
+  padding: 11px 14px;
   border: 1px solid var(--c-borde);
   border-radius: var(--radio);
   background: var(--c-superficie);
@@ -952,8 +1065,8 @@ a.dato-contacto {
 .acceso__icono {
   display: inline-grid;
   place-items: center;
-  width: 40px;
-  height: 40px;
+  width: 34px;
+  height: 34px;
   flex: none;
   border-radius: 10px;
   background: var(--c-primario-suave);
@@ -1187,7 +1300,7 @@ a.dato-contacto {
   align-items: center;
   justify-content: center;
   gap: 14px;
-  min-height: 100vh;
+  min-height: var(--alto-vista);
   color: var(--c-texto-3);
 }
 

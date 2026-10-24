@@ -1,7 +1,7 @@
 {
   "id": "agenda",
   "titulo": "Agenda corporativa",
-  "intro": "Comités, capacitaciones, eventos internos, cierres y feriados de las próximas semanas. Tus reuniones con clientes te las da tu asistente.",
+  "intro": "Comités, capacitaciones, eventos internos, cierres y feriados de las próximas semanas. Tus reuniones con clientes te las dan tus agentes.",
   "bloques": [
     {
       "tipo": "destacado",
@@ -168,7 +168,7 @@
       "items": [
         {
           "titulo": "Tus reuniones de los próximos días",
-          "resumen": "Pídele a tu asistente el detalle de tus reuniones con clientes de los próximos siete días.",
+          "resumen": "Pídeles a tus agentes el detalle de tus reuniones con clientes de los próximos siete días.",
           "cta": {
             "agente": "brujula",
             "frase": "¿Qué reuniones tengo en los próximos 7 días?"

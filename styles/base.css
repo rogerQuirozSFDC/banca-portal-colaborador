@@ -4,6 +4,9 @@
    ingreso, tema.js la aplica sobre estas variables. */
 
 :root {
+  /* Escala del portal en pantallas muy anchas (layout.css) y alto visible de la ventana con esa escala. */
+  --zoom: 1;
+  --alto-vista: calc(100vh / var(--zoom));
   --c-primario: #2d3e5c;
   --c-primario-rgb: 45, 62, 92;
   --c-secundario: #51658a;

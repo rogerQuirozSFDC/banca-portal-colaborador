@@ -703,7 +703,7 @@ h3.md-titulo {
 
 .dialogo {
   width: min(640px, calc(100vw - 32px));
-  max-height: calc(100vh - 48px);
+  max-height: calc(var(--alto-vista) - 48px);
   padding: 0;
   border: 0;
   border-radius: var(--radio-lg);
@@ -718,7 +718,7 @@ h3.md-titulo {
 .dialogo__marco {
   display: flex;
   flex-direction: column;
-  max-height: calc(100vh - 48px);
+  max-height: calc(var(--alto-vista) - 48px);
 }
 
 .dialogo__cabecera {

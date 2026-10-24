@@ -296,7 +296,7 @@ body[data-pagina="portal"] {
 /* ---------- Principal ---------- */
 
 .principal {
-  min-height: calc(100vh - var(--alto-cabecera));
+  min-height: calc(var(--alto-vista) - var(--alto-cabecera));
   margin-left: var(--ancho-nav);
   padding: 28px 32px 32px;
   container-type: inline-size;
@@ -369,6 +369,13 @@ body[data-pagina="portal"] {
 
 .lanzador-asistentes:hover {
   filter: brightness(1.08);
+}
+
+/* Con pantalla de escritorio, «Agentes» ya está en la cabecera: el botón flotante solo taparía contenido. */
+@media (min-width: 1024px) {
+  .lanzador-asistentes {
+    display: none;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -534,4 +541,34 @@ body.rail-abierto.rail-amplio {
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* Pantallas muy anchas (monitores grandes o el navegador con zoom reducido): todo el portal se escala
+   para que el texto no quede diminuto y el contenido ocupe el ancho de forma pareja. */
+@media (min-width: 2000px) {
+  :root {
+    --zoom: 1.12;
+    zoom: var(--zoom);
+  }
+}
+
+@media (min-width: 2300px) {
+  :root {
+    --zoom: 1.25;
+    zoom: var(--zoom);
+  }
+}
+
+@media (min-width: 2700px) {
+  :root {
+    --zoom: 1.4;
+    zoom: var(--zoom);
+  }
+}
+
+@media (min-width: 3200px) {
+  :root {
+    --zoom: 1.6;
+    zoom: var(--zoom);
+  }
 }

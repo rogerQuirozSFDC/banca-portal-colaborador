@@ -2,18 +2,18 @@
 <html lang="es-PE">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' https://trailsignup-e412e138045298.my.salesforce.com https://api.salesforce.com; frame-src 'none'; base-uri 'self'; form-action https://trailsignup-e412e138045298.my.salesforce.com; object-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://trailsignup-e412e138045298.my.salesforce.com; media-src 'self' blob:; connect-src 'self' https://trailsignup-e412e138045298.my.salesforce.com https://api.salesforce.com; frame-src 'none'; base-uri 'self'; form-action https://trailsignup-e412e138045298.my.salesforce.com; object-src 'none'">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="robots" content="noindex,nofollow">
   <title>Portal del Colaborador</title>
   <link rel="icon" href="icono.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles/base.css?v=20b8babb67">
-  <link rel="stylesheet" href="styles/layout.css?v=783fa2a4ab">
-  <link rel="stylesheet" href="styles/componentes.css?v=d332ab41cb">
-  <link rel="stylesheet" href="styles/asistentes.css?v=f1d34d3eb1">
-  <link rel="stylesheet" href="styles/ingreso.css?v=8c2967c67c">
-  <script type="module" src="app.js?v=3183e6bf60"></script>
+  <link rel="stylesheet" href="styles/base.css?v=433f751593">
+  <link rel="stylesheet" href="styles/layout.css?v=6617f727cd">
+  <link rel="stylesheet" href="styles/componentes.css?v=c46c5fdaa9">
+  <link rel="stylesheet" href="styles/asistentes.css?v=4206ffb33f">
+  <link rel="stylesheet" href="styles/ingreso.css?v=85afb1b21e">
+  <script type="module" src="app.js?v=0b35f2d0c1"></script>
 </head>
 <body data-pagina="arranque" class="arrancando">
   <div id="arranque" class="arranque" role="status">
@@ -27,11 +27,11 @@
       <section class="ingreso__panel ingreso__panel--marca" aria-label="Qué encontrarás en el portal">
         <div class="ingreso__claim">
           <p class="ingreso__kicker">Intranet corporativa</p>
-          <p class="ingreso__frase">Tu día, las novedades de la organización y tus asistentes, en un solo lugar.</p>
+          <p class="ingreso__frase">Tu día, las novedades de la organización y tus agentes, en un solo lugar.</p>
           <ul class="ingreso__puntos">
             <li>Comunicados, normativa y formación</li>
             <li>Trámites internos y Mi RR.HH.</li>
-            <li>Asistentes para tu cartera, tus visitas y tus expedientes</li>
+            <li>Agentes para tu cartera, tus visitas y tus expedientes</li>
           </ul>
         </div>
       </section>
@@ -42,7 +42,7 @@
             <img class="ingreso__logo ingreso__logo--neutro" src="icono.svg" alt="" width="44" height="44">
           </div>
           <h1 id="ingreso-titulo" class="ingreso__titulo">Portal del Colaborador</h1>
-          <p class="ingreso__texto">Ingresa con tu usuario corporativo para ver tu día, los comunicados y tus asistentes.</p>
+          <p class="ingreso__texto">Ingresa con tu usuario corporativo para ver tu día, los comunicados y tus agentes.</p>
           <p id="ingreso-mensaje" class="ingreso__mensaje" role="status" hidden></p>
           <button type="button" id="ingreso-boton" class="btn btn--primario btn--grande ingreso__boton">
             <span class="spinner spinner--claro" aria-hidden="true"></span>
@@ -82,8 +82,8 @@
           </span>
         </div>
         <button type="button" id="btn-asistentes" class="btn btn--secundario btn--sm cabecera__asistentes" aria-controls="rail" aria-expanded="false">
-          <span class="icono-ranura" data-icono="conversacion" data-tamano="16" aria-hidden="true"></span>
-          <span>Asistentes</span>
+          <span class="icono-ranura" data-icono="agente" data-tamano="16" aria-hidden="true"></span>
+          <span>Agentes</span>
         </button>
         <button type="button" id="btn-salir" class="btn btn--fantasma btn--sm">
           <span class="icono-ranura" data-icono="salir" data-tamano="16" aria-hidden="true"></span>

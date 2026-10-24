@@ -1,14 +1,14 @@
 /* Pantalla de ingreso. */
 
 body.ingreso {
-  min-height: 100vh;
+  min-height: var(--alto-vista);
   background: var(--c-fondo);
 }
 
 .ingreso__marco {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(380px, 1fr);
-  min-height: 100vh;
+  min-height: var(--alto-vista);
 }
 
 .ingreso__panel--marca {
