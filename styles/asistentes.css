@@ -742,6 +742,11 @@ h3.md-titulo {
   overflow-y: auto;
 }
 
+.dialogo__pasos {
+  display: grid;
+  gap: 20px;
+}
+
 .dialogo__paso {
   display: grid;
   gap: 10px;
@@ -992,6 +997,81 @@ input[type="file"]:focus-visible + .zona-archivo {
 
 .chip__etiqueta--solicitud {
   font-weight: 600;
+}
+
+/* Para qué es el documento */
+.opciones-uso {
+  display: grid;
+  gap: 8px;
+}
+
+.opcion-uso {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--c-borde-fuerte);
+  border-radius: var(--radio);
+  background: var(--c-superficie);
+  cursor: pointer;
+}
+
+.opcion-uso:hover {
+  border-color: var(--c-primario);
+}
+
+.opcion-uso:has(.opcion-uso__radio:checked) {
+  border-color: var(--c-primario);
+  background: var(--c-primario-suave);
+}
+
+.opcion-uso:has(.opcion-uso__radio:focus-visible) {
+  outline: 3px solid var(--c-foco);
+  outline-offset: 2px;
+}
+
+.opcion-uso__radio {
+  flex: none;
+  margin: 3px 0 0;
+  accent-color: var(--c-primario);
+}
+
+.opcion-uso__textos {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.opcion-uso__titulo {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--c-texto);
+}
+
+.opcion-uso__ayuda {
+  font-size: 13px;
+  color: var(--c-texto-2);
+}
+
+/* Minuta: lectura y revisión */
+.minuta,
+.minuta__cargando {
+  display: grid;
+  gap: 10px;
+}
+
+.minuta__ayuda {
+  margin: 0;
+  font-size: 13px;
+  color: var(--c-texto-2);
+}
+
+.minuta__texto {
+  width: 100%;
+  min-height: 240px;
+  resize: vertical;
+  line-height: 1.5;
+  white-space: pre-wrap;
 }
 
 .progreso-subida__bloque {
